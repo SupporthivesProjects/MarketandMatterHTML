@@ -15,7 +15,7 @@ Rahul : How it works, FAQ, Contact Us, All modal & Popup.
 Dhiraj :  Service, Cart, Checkout, Checkout Success/Failed, All modal & Popup.
 Tirthak : Home, About Us, All modal & Popup.
 Medhansh :  Terms, Privacy, Error, All modal & Popup.
-Saakshi C : Services, All modal & Popup.
+Saakshi C : Services-5, All modal & Popup.
 Sakshi K : Dashboard, All modal & Popup.
 Diksha : Login, Register, Reset, Forgot Password, All modal & Popup.
 
