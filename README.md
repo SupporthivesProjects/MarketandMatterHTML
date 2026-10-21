@@ -6,7 +6,7 @@ End Date :  23/10/2026<br>
 QA - Parth
 
 
-Developer Team:Rahul,Dhiraj,Trithak,Saakshi,Saakshi K,<br>
+Developer Team:Rahul,Dhiraj,Trithak,Saakshi,Saakshi K,Medhansh,Diksha<br>
 Project Report : Jeet <br>
 Team Lead : Vijay<br>
 
