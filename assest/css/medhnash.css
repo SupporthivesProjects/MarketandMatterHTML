@@ -1,0 +1,1787 @@
+.login-main-section {
+    width: 100%;
+    padding-top: 143px;
+    background: #ffedc8;
+}
+
+.login-main-row {
+    width: 100%;
+}
+
+.login-form-column {
+    display: flex;
+    padding: 104px 104px 104px 240px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #ffedc8;
+}
+
+.login-form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.login-form-title {
+    margin: 0;
+    color: #16305B;
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.login-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.login-field-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-field-label {
+    margin: 0;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.login-field-input {
+    display: flex;
+    width: 100%;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #16305B;
+    background: #FFF;
+    box-shadow: 4px 4px 0 0 #16305B;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.login-field-input:focus {
+    border-color: #16305B;
+    box-shadow: 4px 4px 0 0 #16305B;
+    outline: none;
+}
+
+.login-field-input::placeholder {
+    color: #16305B;
+    opacity: 0.7;
+}
+
+.login-submit-button {
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    border-radius: 4px;
+    background: #C83A14;
+}
+
+.login-submit-button-inner {
+    display: flex;
+    width: 100%;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 2px;
+    border: 2px dashed  #ECAD47;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.login-submit-button:hover,
+.login-submit-button:focus {
+    background: var(--brand-rust, #C83A14);
+}
+
+.login-submit-button:hover .login-submit-button-inner,
+.login-submit-button:focus .login-submit-button-inner {
+    color: #fff;
+}
+
+.login-signup-text {
+    margin: 0;
+    color: rgba(22, 48, 91, 0.55);
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    width: 100%;
+}
+
+.login-signup-link {
+    color: #2D5A8C;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.login-image-column {
+    padding: 0;
+}
+
+.login-image-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login-main-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 991px) {
+    .login-form-column {
+        padding: 64px 48px 64px 80px;
+    }
+
+    .login-form-title {
+        font-size: 44px;
+    }
+
+    .login-field-label {
+        font-size: 18px;
+    }
+
+    .login-field-input {
+        padding: 14px 20px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .login-main-section {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .login-main-row {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-image-column {
+        order: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .login-image-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .login-main-image {
+        display: block;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .login-form-column {
+        order: 2;
+        width: 100%;
+        padding: 40px 24px 48px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .login-form-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .login-form-title {
+        width: 100%;
+        margin: 0 0 24px 0;
+        font-size: 40px;
+    }
+
+    .login-form {
+        width: 100%;
+        gap: 28px;
+    }
+
+    .login-field-group {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .login-field-label {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .login-field-input {
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    .login-submit-button {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .login-submit-button-inner {
+        width: 100%;
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+
+    .login-signup-text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .login-signup-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .login-image-wrapper {
+        height: 280px;
+    }
+
+    .login-main-image {
+        height: 300px;
+    }
+
+    .login-form-column {
+        padding: 40px 20px 48px 20px;
+    }
+
+    .login-form-title {
+        font-size: 36px;
+    }
+
+    .login-field-label {
+        font-size: 15px;
+    }
+
+    .login-field-input {
+        padding: 11px 14px;
+        font-size: 15px;
+    }
+
+    .login-submit-button-inner {
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+
+    .login-signup-text,
+    .login-signup-link {
+        font-size: 13px;
+    }
+}
+
+
+.signup-main-section {
+    width: 100%;
+    padding-top: 143px;
+    background: #ffedc8;
+}
+
+.signup-main-row {
+    width: 100%;
+}
+
+.signup-form-column {
+    display: flex;
+    padding: 104px 104px 104px 240px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #ffedc8;
+}
+
+.signup-form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.signup-form-title {
+    margin: 0;
+    color: #16305B;
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.signup-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.signup-field-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.signup-field-label {
+    margin: 0;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.signup-field-input {
+    display: flex;
+    width: 100%;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #16305B;
+    background: #FFF;
+    box-shadow: 4px 4px 0 0 #16305B;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.signup-field-input:focus {
+    border-color: #16305B;
+    box-shadow: 4px 4px 0 0 #16305B;
+    outline: none;
+}
+
+.signup-field-input::placeholder {
+    color: #16305B;
+    opacity: 0.7;
+}
+
+.signup-terms-group {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.signup-terms-checkbox {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border: 2px solid rgba(22, 48, 91, 0.35);
+    background-color: #FFF;
+}
+
+.signup-terms-label {
+    margin: 0;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.signup-captcha {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d6d6d6;
+    background: #fafafa;
+}
+
+.signup-action-group {
+    display: flex;
+    width: 100%;
+    gap: 24px;
+}
+
+.signup-captcha {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.signup-captcha-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.signup-submit-button {
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    border-radius: 4px;
+    background: #C83A14;
+}
+
+.signup-submit-button-inner {
+    display: flex;
+    width: 100%;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 2px;
+    border: 2px dashed #ECAD47;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.signup-submit-button:hover,
+.signup-submit-button:focus {
+    background: #C83A14;
+}
+
+.signup-submit-button:hover .signup-submit-button-inner,
+.signup-submit-button:focus .signup-submit-button-inner {
+    color: #fff;
+}
+
+.signup-login-text {
+    margin: 0;
+    color: rgba(22, 48, 91, 0.55);
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    width: 100%;
+}
+
+.signup-login-link {
+    color: #2D5A8C;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.signup-image-column {
+    padding: 0;
+}
+
+.signup-image-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.signup-main-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 991px) {
+    .signup-form-column {
+        padding: 64px 48px 64px 80px;
+    }
+
+    .signup-form-title {
+        font-size: 44px;
+    }
+
+    .signup-field-label {
+        font-size: 18px;
+    }
+
+    .signup-field-input {
+        padding: 14px 20px;
+        font-size: 18px;
+    }
+
+    .signup-terms-label {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .signup-main-section {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .signup-main-row {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signup-image-column {
+        order: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .signup-image-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .signup-main-image {
+        display: block;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .signup-form-column {
+        order: 2;
+        width: 100%;
+        padding: 40px 24px 48px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .signup-form-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .signup-form-title {
+        width: 100%;
+        margin: 0 0 24px 0;
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    .signup-form {
+        width: 100%;
+        gap: 28px;
+    }
+
+    .signup-field-group {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .signup-field-label {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .signup-field-input {
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    .signup-terms-group {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .signup-terms-checkbox {
+        width: 15px;
+        height: 15px;
+    }
+
+    .signup-terms-label {
+        font-size: 12px;
+    }
+
+    .signup-captcha {
+        width: 100%;
+    }
+
+    .signup-captcha-label {
+        font-size: 12px;
+    }
+
+    .signup-captcha-checkbox {
+        width: 18px;
+        height: 18px;
+    }
+
+    .signup-submit-button {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .signup-submit-button-inner {
+        width: 100%;
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+
+    .signup-login-text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .signup-login-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .signup-image-wrapper {
+        width: 100%;
+        height: 280px;
+    }
+
+    .signup-main-image {
+        display: block;
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .signup-form-column {
+        width: 100%;
+        padding: 40px 20px 48px 20px;
+    }
+
+    .signup-form-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .signup-form-title {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .signup-field-group {
+        width: 100%;
+    }
+
+    .signup-field-label {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .signup-field-input {
+        width: 100%;
+        padding: 11px 14px;
+        font-size: 15px;
+    }
+
+    .signup-terms-group {
+        width: 100%;
+    }
+
+    .signup-terms-label {
+        font-size: 11px;
+    }
+
+    .signup-action-group {
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .signup-captcha {
+        display: grid;
+        background-color: transparent;
+        border: 0px;
+    }
+
+    .signup-captcha-image {
+        display: block;
+        width: 100%;
+        height: 69px;
+        max-width: 100%;
+    }
+
+    .signup-submit-button {
+        width: 100%;
+        height: auto;
+        padding: 6px;
+    }
+
+    .signup-submit-button-inner {
+        width: 100%;
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+
+    .signup-login-text {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .signup-login-link {
+        font-size: 15px;
+    }
+
+}
+
+
+.reset-password-main-section {
+    width: 100%;
+    padding-top: 143px;
+    background: #ffedc8;
+}
+
+.reset-password-main-row {
+    width: 100%;
+}
+
+.reset-password-form-column {
+    display: flex;
+    padding: 104px 104px 104px 240px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #ffedc8;
+}
+
+.reset-password-form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.reset-password-form-title {
+    margin: 0;
+    color: #16305B;
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.reset-password-description {
+    width: 100%;
+    margin: 0;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.reset-password-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.reset-password-field-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reset-password-field-label {
+    margin: 0;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.reset-password-field-input {
+    display: flex;
+    width: 100%;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #16305B;
+    background: #FFF;
+    box-shadow: 4px 4px 0 0 #16305B;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.reset-password-field-input:focus {
+    border-color: #16305B;
+    box-shadow: 4px 4px 0 0 #16305B;
+    outline: none;
+}
+
+.reset-password-field-input::placeholder {
+    color: #16305B;
+    opacity: 0.7;
+}
+
+.reset-password-submit-button {
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    border-radius: 4px;
+    background: #C83A14;
+}
+
+.reset-password-submit-button-inner {
+    display: flex;
+    width: 100%;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 2px;
+    border: 2px dashed #ECAD47;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.reset-password-submit-button:hover,
+.reset-password-submit-button:focus {
+    background: #C83A14;
+}
+
+.reset-password-submit-button:hover .reset-password-submit-button-inner,
+.reset-password-submit-button:focus .reset-password-submit-button-inner {
+    color: #fff;
+}
+
+.reset-password-login-text {
+    margin: 0;
+    color: rgba(22, 48, 91, 0.55);
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    width: 100%;
+}
+
+.reset-password-login-link {
+    color: #2D5A8C;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.reset-password-image-column {
+    padding: 0;
+}
+
+.reset-password-image-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.reset-password-main-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.reset-email-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: rgba(22, 48, 91, 0.85);
+    z-index: 9999;
+}
+
+.reset-email-popup {
+    display: flex;
+    width: 620px;
+    padding: 56px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 4px;
+    background: #ffedc8;
+    box-shadow: 4px 4px 0 0 #16305B;
+}
+
+.reset-email-popup-title {
+    width: 100%;
+    margin: 0;
+    color: #16305B;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.reset-email-popup-description {
+    width: 100%;
+    max-width: 420px;
+    margin: 0;
+    color: #16305B;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.reset-email-popup-button {
+    display: flex;
+    width: auto;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    background: #C83A14;
+}
+
+.reset-email-popup-button-inner {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 2px;
+    border: 2px dashed #ECAD47;
+    color: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.reset-email-popup-button:hover,
+.reset-email-popup-button:focus {
+    background: #C83A14;
+}
+
+.reset-email-popup-button:hover .reset-email-popup-button-inner,
+.reset-email-popup-button:focus .reset-email-popup-button-inner {
+    color: #FFF;
+}
+
+@media (max-width: 991px) {
+    .reset-email-popup {
+        max-width: 460px;
+        padding: 30px 36px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .reset-email-popup-overlay {
+        padding: 24px;
+    }
+
+    .reset-email-popup {
+        width: 100%;
+        max-width: 420px;
+        padding: 28px 28px;
+        gap: 14px;
+    }
+
+    .reset-email-popup-button {
+        width: auto;
+    }
+
+    .reset-email-popup-button-inner {
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .reset-email-popup-overlay {
+        padding: 20px;
+    }
+
+    .reset-email-popup {
+        display: flex;
+        width: 327px;
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .reset-email-popup-button {
+        padding: 6px;
+    }
+
+    .reset-email-popup-button-inner {
+        padding: 7px 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .reset-password-form-column {
+        padding: 64px 48px 64px 80px;
+    }
+
+    .reset-password-form-title {
+        font-size: 44px;
+    }
+
+    .reset-password-field-label {
+        font-size: 18px;
+    }
+
+    .reset-password-field-input {
+        padding: 14px 20px;
+        font-size: 18px;
+    }
+
+    .reset-password-description {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .reset-password-main-section {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .reset-password-main-row {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reset-password-image-column {
+        order: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .reset-password-image-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .reset-password-main-image {
+        display: block;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .reset-password-form-column {
+        order: 2;
+        width: 100%;
+        padding: 40px 24px 48px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .reset-password-form-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .reset-password-form-title {
+        width: 100%;
+        margin: 0 0 24px 0;
+        font-size: 40px;
+    }
+
+    .reset-password-description {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .reset-password-form {
+        width: 100%;
+        gap: 28px;
+    }
+
+    .reset-password-field-group {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .reset-password-field-label {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .reset-password-field-input {
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    .reset-password-submit-button {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .reset-password-submit-button-inner {
+        width: 100%;
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+
+    .reset-password-login-text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .reset-password-login-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .reset-password-image-wrapper {
+        width: 100%;
+        height: 280px;
+    }
+
+    .reset-password-main-image {
+        display: block;
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .reset-password-form-column {
+        width: 100%;
+        padding: 40px 20px 48px 20px;
+    }
+
+    .reset-password-form-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .reset-password-form-title {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .reset-password-description {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .reset-password-field-group {
+        width: 100%;
+    }
+
+    .reset-password-field-label {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .reset-password-field-input {
+        width: 100%;
+        padding: 11px 14px;
+        font-size: 15px;
+    }
+
+    .reset-password-submit-button {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .reset-password-submit-button-inner {
+        width: 100%;
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+
+    .reset-password-login-text {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .reset-password-login-link {
+        font-size: 13px;
+    }
+}
+
+
+.new-password-main-section {
+    width: 100%;
+    padding-top: 143px;
+    background: #ffedc8;
+}
+
+.new-password-main-row {
+    width: 100%;
+}
+
+.new-password-form-column {
+    display: flex;
+    padding: 104px 104px 104px 240px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #ffedc8;
+}
+
+.new-password-form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.new-password-form-title {
+    margin: 0;
+    color: #16305B;
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.new-password-description {
+    width: 100%;
+    margin: 0;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.new-password-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.new-password-field-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.new-password-field-label {
+    margin: 0;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.new-password-field-input {
+    display: flex;
+    width: 100%;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #16305B;
+    background: #FFF;
+    box-shadow: 4px 4px 0 0 #16305B;
+    color: #16305B;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.new-password-field-input:focus {
+    border-color: #16305B;
+    box-shadow: 4px 4px 0 0 #16305B;
+    outline: none;
+}
+
+.new-password-field-input::placeholder {
+    color: #16305B;
+    opacity: 0.7;
+}
+
+.new-password-submit-button {
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+    border-radius: 4px;
+    background: #C83A14;
+}
+
+.new-password-submit-button-inner {
+    display: flex;
+    width: 100%;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 2px;
+    border: 2px dashed #ECAD47;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.new-password-submit-button:hover,
+.new-password-submit-button:focus {
+    background: #C83A14;
+}
+
+.new-password-submit-button:hover .new-password-submit-button-inner,
+.new-password-submit-button:focus .new-password-submit-button-inner {
+    color: #fff;
+}
+
+.new-password-image-column {
+    padding: 0;
+}
+
+.new-password-image-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.new-password-main-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.password-success-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 24px; */
+    background: rgba(22, 48, 91, 0.85);
+    z-index: 9999;
+}
+
+.password-success-popup {
+    display: flex;
+    width: 620px;
+    padding: 56px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 4px;
+    background: #ffedc8;
+    box-shadow: 4px 4px 0 0 #16305B;
+}
+
+.password-success-popup-title {
+    width: 100%;
+    margin: 0;
+    color: #16305B;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.password-success-popup-description {
+    width: 100%;
+    margin: 0;
+    color: #16305B;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.password-success-popup-button {
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    background: #C83A14;
+    
+}
+
+.password-success-popup-button-inner {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 2px;
+    border: 2px dashed #ECAD47;
+    color: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    width: 100%;
+}
+
+.password-success-popup-button:hover,
+.password-success-popup-button:focus {
+    background: #C83A14;
+}
+
+.password-success-popup-button:hover .password-success-popup-button-inner,
+.password-success-popup-button:focus .password-success-popup-button-inner {
+    color: #FFF;
+}
+
+@media (max-width: 991px) {
+    .password-success-popup {
+        width: 460px;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .password-success-popup-overlay {
+        padding: 24px;
+    }
+
+    .password-success-popup {
+        width: 100%;
+        max-width: 420px;
+        padding: 32px;
+    }
+
+    .password-success-popup-button-inner {
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .password-success-popup-overlay {
+        padding: 20px;
+    }
+
+    .password-success-popup {
+        display: flex;
+        width: 327px;
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .password-success-popup-button {
+        padding: 6px;
+        width: 100%;
+    }
+
+    .password-success-popup-button-inner {
+        padding: 7px 18px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .new-password-form-column {
+        padding: 64px 48px 64px 80px;
+    }
+
+    .new-password-field-input {
+        padding: 14px 20px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .new-password-main-section {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .new-password-main-row {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new-password-image-column {
+        order: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .new-password-image-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .new-password-main-image {
+        display: block;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .new-password-form-column {
+        order: 2;
+        width: 100%;
+        padding: 40px 24px 48px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .new-password-form-wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .new-password-form-title {
+        width: 100%;
+        margin: 0 0 24px 0;
+        font-size: 40px;
+    }
+
+    .new-password-description {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .new-password-form {
+        width: 100%;
+        gap: 28px;
+    }
+
+    .new-password-field-group {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .new-password-field-label {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .new-password-field-input {
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+
+    .new-password-submit-button {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .new-password-submit-button-inner {
+        width: 100%;
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .new-password-image-wrapper {
+        width: 100%;
+        height: 280px;
+    }
+
+    .new-password-main-image {
+        display: block;
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .new-password-form-column {
+        width: 100%;
+        padding: 40px 20px 48px 20px;
+    }
+
+    .new-password-form-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .new-password-form-title {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .new-password-description {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .new-password-field-group {
+        width: 100%;
+    }
+
+    .new-password-field-label {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .new-password-field-input {
+        width: 100%;
+        padding: 11px 14px;
+        font-size: 15px;
+    }
+
+    .new-password-submit-button {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .new-password-submit-button-inner {
+        width: 100%;
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+}
+

@@ -1,0 +1,122 @@
+@media only screen and (max-width: 600px) {
+    .p-mo{
+        padding: 0px 0px;
+    }
+    section{
+        padding: 40px 0px;
+    }
+    html,body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+   
+}
+@media only screen and (max-width: 600px) {
+    .site-nav {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .not-found{
+        padding: 32px 24px 40px;
+        margin-top: 76px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .footer-menu {
+        display: flex;
+        width: 100%;
+        gap: 24px;
+    }
+    .footer-menu-link {
+        width: 100%;
+    }
+    footer {
+        display: flex;
+        padding: 56px 24px 32px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        align-self: stretch;
+        background: var(--brand-warm-black, #14130F);
+    }
+    .footer-logo a {
+        display: flex;
+        text-decoration: none;
+        gap: 8px;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    .divider{
+        display: none;
+    }
+    .footer-logo{
+        margin-bottom: 40px;
+    }
+    .footer-link-two {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-bottom-link {
+        display: flex;
+        gap: 8px;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    .footer-bottom-link-two {
+        display: flex;
+        gap: 24px;
+        width: 100%;
+        float: right;
+    }
+    .foooter-img p{
+        display: flex;
+        color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+        font-family: "Fragment Mono";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+        margin: 0px;
+        margin-right: 16px;
+    }
+    .foooter-img {
+        display: flex;
+        gap: 8px;
+        width: 228px;
+        align-items: center;
+        
+    }
+    .container-one {
+        border-top: 1px solid rgba(243, 238, 228, 0.20);
+        padding-top: 40px !important;
+        margin-top: 40px;
+    }
+    .footer-menu-link h6 {
+        color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+        font-family: "Fragment Mono";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    .footer-menu-link ul {
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 0px;
+    }
+}

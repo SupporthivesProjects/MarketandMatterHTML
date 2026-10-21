@@ -1,0 +1,2467 @@
+/* =========================================
+   WHO IS THIS SECTION
+========================================= */
+
+.who-is-this-section {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 0px;
+
+    background-color: var(--brand-cream, #FBF3E0);
+    background-image: url("../img/create_bgg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.who-is-this-container {
+    margin: 240px auto 96px;
+    box-sizing: border-box;
+    border-radius: var(--radius-m, 8px);
+    background: var(--brand-cream, #FBF3E0);
+    display: flex;
+    width: 100%;
+    max-width: 974px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.who-is-this-header {
+    width: 100%;
+
+    text-align: center;
+}
+
+.who-is-this-header h1 {
+    margin: 0;
+
+    color: var(--brand-navy, #16305B);
+    text-align: center;
+
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+    text-transform: uppercase;
+}
+
+.who-is-this-header p {
+    margin: 16px 0 0;
+
+    color: var(--brand-ink, #31486E);
+    text-align: center;
+
+    font-family: Nunito, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+/* =========================================
+   STEPPER
+========================================= */
+
+.who-is-this-steps {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    margin-bottom: 0px;
+}
+
+
+/* =========================================
+   STEP
+========================================= */
+
+.who-step {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 0;
+}
+
+
+/* =========================================
+   CONNECTING LINE
+========================================= */
+
+.who-step:not(:last-child)::after {
+    content: "";
+
+    position: absolute;
+
+    top: 8px;
+
+    left: 50%;
+    right: -50%;
+
+    height: 2px;
+
+    background: rgba(22, 48, 91, 0.16);
+
+    z-index: 0;
+}
+
+
+/* =========================================
+   CIRCLE
+========================================= */
+
+.who-step__circle {
+    position: relative;
+
+    width: 16px;
+    height: 16px;
+
+    flex: 0 0 16px;
+
+    box-sizing: border-box;
+
+    border-radius: 50%;
+
+    background: var(--brand-cream, #FBF3E0);
+
+    border: 2px solid var(--brand-gold, #E9B04A);
+
+    z-index: 2;
+}
+
+
+/* ACTIVE CIRCLE */
+
+.who-step--active .who-step__circle {
+    background: var(--brand-red, #D4452E);
+
+    border-color: var(--brand-red, #D4452E);
+}
+
+
+/* =========================================
+   STEP TEXT
+========================================= */
+
+.who-step__text {
+    margin-top: 8px;
+
+    color: var(--brand-navy-soft-55,
+            rgba(22, 48, 91, 0.55));
+
+    text-align: center;
+
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+
+    white-space: nowrap;
+}
+
+.who-step--active .who-step__text {
+    color: var(--brand-navy, #16305B);
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.who-is-this-form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.who-form-group {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.who-form-group label {
+    margin-bottom: 8px;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+
+/* =========================================
+   INPUT
+========================================= */
+
+.who-form-group input {
+    width: 100%;
+    height: 60px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+
+    padding: 16px 24px;
+
+    border-radius: var(--radius-s, 4px);
+
+    border: 2px solid var(--brand-navy, #16305B);
+
+    background: var(--Base-White, #FFF);
+
+    box-shadow: 4px 4px 0 0 #16305B;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+
+    outline: none;
+}
+
+.who-form-group input::placeholder {
+    color: rgba(22, 48, 91, 0.45);
+}
+
+
+/* =========================================
+   SELECT
+========================================= */
+
+.who-select-wrapper {
+    position: relative;
+
+    width: 100%;
+}
+
+.who-select-wrapper select {
+    width: 100%;
+    height: 60px;
+
+    box-sizing: border-box;
+
+    padding: 16px 56px 16px 24px;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    border-radius: var(--radius-s, 4px);
+
+    border: 2px solid var(--brand-navy, #16305B);
+
+    background: var(--Base-White, #FFF);
+
+    box-shadow: 4px 4px 0 0 #16305B;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+.who-select-arrow {
+    position: absolute;
+
+    top: 50%;
+    right: 24px;
+
+    width: 7px;
+    height: 7px;
+
+    border-right: 2px solid var(--brand-navy, #16305B);
+    border-bottom: 2px solid var(--brand-navy, #16305B);
+
+    transform: translateY(-70%) rotate(45deg);
+
+    pointer-events: none;
+}
+
+
+/* =========================================
+   TEXTAREA
+========================================= */
+
+.who-form-group--about {
+    position: relative;
+}
+
+.who-form-group textarea {
+    width: 100%;
+    min-height: 160px;
+
+    box-sizing: border-box;
+
+    padding: 16px 24px;
+
+    resize: vertical;
+
+    border-radius: var(--radius-s, 4px);
+
+    border: 2px solid var(--brand-navy, #16305B);
+
+    background: var(--Base-White, #FFF);
+
+    box-shadow: 4px 4px 0 0 #16305B;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    margin-top: 16px;
+
+    outline: none;
+}
+
+.who-form-group textarea::placeholder {
+    color: rgba(22, 48, 91, 0.45);
+}
+
+.who-character-count {
+    margin-top: 8px;
+    color: var(--brand-navy-soft-55, rgba(22, 48, 91, 0.55));
+    text-align: right;
+
+    /* body / micro */
+    font-family: "Nunito";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 15.4px */
+    letter-spacing: 1.98px;
+    text-transform: uppercase;
+}
+
+.who-continue-btn {
+    border-radius: var(--radius-s, 4px);
+    background: var(--brand-rust, #C83A14);
+
+    display: flex;
+    height: 56px;
+    padding: 6px;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    border: none;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.who-continue-btn__inner {
+    display: flex;
+    padding: 8px 24px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    flex: 1 0 0;
+    align-self: stretch;
+
+    color: var(--Base-White, #FFF);
+    text-align: center;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+
+    border-radius: var(--radius-xs, 2px);
+    border: 2px dashed var(--brand-gold-light, #ECAD47);
+
+    box-sizing: border-box;
+}
+
+
+/* HOVER */
+
+.who-continue-btn:hover .who-continue-btn__inner {
+    border-radius: var(--radius-xs, 2px);
+
+    border: 2px solid var(--brand-gold-light, #ECAD47);
+
+    background: var(--brand-gold-light, #ECAD47);
+
+    color: var(--brand-navy, #16305B);
+}
+
+/* =========================================
+   FOCUS
+========================================= */
+
+.who-form-group input:focus,
+.who-form-group textarea:focus,
+.who-select-wrapper select:focus {
+    outline: none;
+
+    box-shadow: 4px 4px 0 0 #16305B;
+}
+
+
+/* CREATE WORLD */
+
+.create-world {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 240px 0px 96px;
+    background-color: var(--brand-cream, #FBF3E0);
+    background-image: url("../img/create_world.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+
+/* EVERYTHING IS INSIDE THIS */
+.create-world__container {
+    width: 100%;
+    display: flex;
+    max-width: 974px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+border-radius: var(--radius-m, 8px);
+background: var(--brand-cream, #FBF3E0);    overflow: hidden;
+    margin: 0px auto;
+}
+
+.create-world__section{
+    width: 100%;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.create-world__header {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.create-world__header h1 {
+    margin: 0 auto 16px;
+    color: var(--brand-navy, #16305B);
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.create-world__header p {
+    max-width: 763px;
+    margin: 0px auto 0;
+
+    color: var(--brand-ink, #31486E);
+
+    font-family: Nunito, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+
+/* =========================================
+   STEPPER
+========================================= */
+
+.create-world__steps {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    position: relative;
+
+    margin: 0 0 0px;
+}
+
+.create-world__steps::before {
+    content: "";
+
+    position: absolute;
+
+    top: 8px;
+    left: 12.5%;
+    right: 12.5%;
+
+    height: 2px;
+
+    background: rgba(22, 48, 91, 0.16);
+
+    z-index: 0;
+}
+
+.create-world__step {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 0;
+
+    color: rgba(22, 48, 91, 0.55);
+
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+
+    white-space: nowrap;
+    gap: 8px;
+}
+
+.create-world__step-circle {
+    width: 16px;
+    height: 16px;
+
+    flex: 0 0 16px;
+
+    box-sizing: border-box;
+
+    border-radius: 50%;
+
+    background: var(--brand-cream, #FBF3E0);
+
+    border: 2px solid var(--brand-gold, #E9B04A);
+}
+
+.create-world__step--active {
+    color: var(--brand-navy, #16305B);
+}
+
+.create-world__step--active .create-world__step-circle {
+    background: var(--brand-red, #D4452E);
+    border-color: var(--brand-red, #D4452E);
+}
+
+.create-world__section h2 {
+    color: var(--brand-rust, #C83A14);
+    font-family: "Nunito";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 29.4px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.create-world__form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 0;
+}
+
+
+/* =========================================
+   EACH FORM GROUP
+========================================= */
+
+.create-world__group {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 0 24px;
+}
+
+
+/* =========================================
+   PINK STRIPED SEPARATOR
+========================================= */
+
+.create-world__group+.create-world__group {
+    padding-top: 8px;
+
+    background-size: 100% 8px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+/* =========================================
+   EYEBROW
+========================================= */
+
+.create-world__eyebrow {
+    margin: 0 0 8px;
+
+    color: var(--brand-rust, #C83A14);
+
+    font-family: Nunito, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+
+    letter-spacing: 1.68px;
+
+    text-transform: uppercase;
+}
+
+
+/* =========================================
+   OPTION PILLS
+========================================= */
+
+.create-world__options {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 16px;
+}
+
+.create-world__option {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--radius-full, 100px);
+    border: 2px solid rgba(22, 48, 91, 0.20);
+    color: var(--brand-navy, #16305B);
+    font-family: "Nunito";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    background-color: transparent;
+    cursor: pointer;
+
+    box-sizing: border-box;
+}
+
+.create-world__option--active {
+    background: var(--brand-navy, #16305B);
+    border-color: var(--brand-navy, #16305B);
+    color: var(--brand-cream, #FBF3E0);
+}
+
+
+/* =========================================
+   TEXTAREA
+========================================= */
+
+.create-world__textarea {
+    width: 100%;
+
+    height: 160px;
+    min-height: 132px;
+
+    padding: 16px 24px;
+
+    box-sizing: border-box;
+
+    resize: none;
+
+    border-radius: 4px;
+
+    border: 2px solid var(--brand-navy, #16305B);
+
+    background: #FFF;
+
+    box-shadow: 4px 4px 0 0 #16305B;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 155%;
+
+    outline: none;
+}
+
+.create-world__textarea::placeholder {
+    color: rgba(22, 48, 91, 0.45);
+}
+
+
+/* =========================================
+   COUNTER
+========================================= */
+
+.create-world__counter {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    align-self: flex-end;
+color: var(--brand-navy-soft-55, rgba(22, 48, 91, 0.55));
+text-align: right;
+font-family: "Nunito";
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 15.4px */
+letter-spacing: 1.98px;
+text-transform: uppercase;}
+
+
+
+/* =========================================
+   BUTTON AREA
+========================================= */
+
+.create-world__actions {
+    width: 100%;
+
+    display: flex;
+
+    gap: 8px;
+
+    padding-top: 0px;
+
+    background-size: 100% 8px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: -8px;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+.create-world__btn_back{
+    border-radius: var(--radius-s, 4px);
+border: 1px solid var(--brand-navy, #16305B);
+background: var(--brand-cream, #FBF3E0);
+display: flex;
+padding: 6px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+    width: 50%;
+
+}
+
+.create-world__btn_back span {
+        width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 24px;
+
+    box-sizing: border-box;
+
+    border-radius: var(--radius-xs, 2px);
+
+    border: 2px dashed var(--brand-gold-light, #ECAD47);
+color: var(--brand-navy, #16305B);
+text-align: center;
+font-family: "Nunito";
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 23.8px */
+}
+
+
+
+.create-world__btn {
+    width: 50%;
+    height: 56px;
+
+    display: flex;
+
+    padding: 6px;
+
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    border: none;
+
+    border-radius: var(--radius-s, 4px);
+
+    background: var(--brand-rust, #C83A14);
+
+    cursor: pointer;
+}
+
+.create-world__btn_back:hover {
+  border-radius: var(--radius-s, 4px);
+background: var(--brand-navy, #16305B);
+
+    color: var(--brand-navy, #16305B);
+}
+
+
+.create-world__btn_back:hover span {
+ border-radius: var(--radius-xs, 2px);
+border: 2px solid var(--brand-cream, #FBF3E0);
+background: var(--brand-cream, #FBF3E0);
+
+    color: var(--brand-navy, #16305B);
+}
+
+
+.create-world__btn span {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 24px;
+
+    box-sizing: border-box;
+
+    border-radius: var(--radius-xs, 2px);
+
+    border: 2px dashed var(--brand-gold-light, #ECAD47);
+
+    color: #FFF;
+
+    font-family: Nunito, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.create-world__btn:hover span {
+    border: 2px solid var(--brand-gold-light, #ECAD47);
+
+    background: var(--brand-gold-light, #ECAD47);
+
+    color: var(--brand-navy, #16305B);
+}
+
+
+/*  */
+
+/* =========================================
+   SECTION
+========================================= */
+
+.create-look {
+    width: 100%;
+    padding: 240px 0px 96px;
+    box-sizing: border-box;
+        background-image: url("../img/create_world.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.create-look__container {
+    width: 100%;
+    max-width: 974px;
+    margin: 0 auto;
+display: flex;
+padding: 64px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+border-radius: var(--radius-m, 8px);
+background: var(--brand-cream, #FBF3E0);
+    overflow: hidden;
+}
+
+
+
+
+/* =========================================
+   STEPPER
+========================================= */
+
+.create-look__steps {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    position: relative;
+
+    margin-bottom: 0px;
+    gap: 8px;
+}
+
+.create-look__steps::before {
+    content: "";
+
+    position: absolute;
+
+    top: 8px;
+    left: 12.5%;
+    right: 12.5%;
+
+    height: 2px;
+
+    background: rgba(22, 48, 91, 0.16);
+
+    z-index: 0;
+}
+
+.create-look__step {
+    position: relative;
+    z-index: 1;
+
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: rgba(22, 48, 91, 0.55);
+
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+
+    white-space: nowrap;
+    gap: 8px;
+}
+
+.create-look__step-circle {
+    width: 16px;
+    height: 16px;
+
+    flex: 0 0 16px;
+
+    box-sizing: border-box;
+
+    border-radius: 50%;
+
+    background: var(--brand-cream, #FBF3E0);
+    border: 2px solid var(--brand-gold, #E9B04A);
+}
+
+.create-look__step--active {
+    color: var(--brand-navy, #16305B);
+}
+
+.create-look__step--active .create-look__step-circle {
+    background: var(--brand-red, #D4452E);
+    border-color: var(--brand-red, #D4452E);
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.create-look__header {
+    width: 100%;
+
+    padding: 0 0px;
+
+    text-align: center;
+}
+
+.create-look__header h1 {
+    margin: 0;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Anton, sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+
+    text-transform: uppercase;
+}
+
+.create-look__header p {
+    max-width: 700px;
+
+    margin: 16px auto 0;
+
+    color: var(--brand-ink, #31486E);
+
+    font-family: Nunito, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+
+/* =========================================
+   DESIGN
+========================================= */
+
+.create-look__design {
+    width: 100%;
+
+    padding-top: 0px;
+
+    background-size: 100% 8px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+/* =========================================
+   GROUP
+========================================= */
+
+.create-look__group {
+    width: 100%;
+}
+
+.circle_filled{
+    background-color: #E9B04A;
+}
+
+
+
+
+/* =========================================
+   IMAGE GRID
+========================================= */
+
+.create-look__styles {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 16px;
+
+    margin-bottom: 24px;
+}
+
+
+/* =========================================
+   RADIO CARD
+========================================= */
+
+.create-look__card {
+    position: relative;
+
+    width: 100%;
+
+    display: block;
+
+    cursor: pointer;
+}
+
+.create-look__card input {
+    position: absolute;
+
+    opacity: 0;
+
+    width: 1px;
+    height: 1px;
+}
+
+
+/* CARD CONTENT */
+
+.create-look__card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+display: flex;
+width: 271px;
+padding: 8px;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+border-radius: var(--radius-m, 8px);
+border: 2px solid var(--brand-line-16, rgba(22, 48, 91, 0.16));
+margin: auto;
+}
+
+
+/* IMAGE */
+
+.create-look__card-content img {
+    width: 100%;
+height: 200px;
+    aspect-ratio: 1.55 / 1;
+
+    object-fit: cover;
+
+    display: block;
+
+border-radius: var(--radius-m, 8px);
+}
+
+/* CARD TEXT */
+
+.create-look__card-content > span {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    min-height: 28px;
+color: var(--brand-navy, #16305B);
+text-align: center;
+font-family: "Nunito";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 28px */
+}
+
+
+/* SELECTED */
+
+.create-look__card input:checked
++ .create-look__card-content {
+border-radius: var(--radius-m, 8px);
+border: 2px solid var(--brand-rust, #C83A14);
+color: var(--brand-rust, #C83A14);
+
+}
+
+.create-look__card input:checked
++ .create-look__card-content span {
+color: var(--brand-rust, #C83A14);
+
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.create-look__description {
+    width: 100%;
+
+    position: relative;
+
+    margin-top: 8px;
+}
+
+.create-look__description textarea {
+    width: 100%;
+    height: 160px;
+
+    padding: 16px 24px;
+
+    box-sizing: border-box;
+
+    resize: none;
+
+    border-radius: var(--radius-s, 4px);
+
+    border: 2px solid var(--brand-navy, #16305B);
+
+    background: #FFF;
+
+    box-shadow: 4px 4px 0 0 #16305B;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155%;
+
+    outline: none;
+}
+
+.create-look__description textarea::placeholder {
+    color: rgba(22, 48, 91, 0.45);
+}
+
+.create-look__counter {
+    display: block;
+
+    margin-top: 8px;
+color: var(--brand-navy-soft-55, rgba(22, 48, 91, 0.55));
+text-align: right;
+font-family: Nunito;
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 15.4px */
+letter-spacing: 1.98px;
+text-transform: uppercase;
+}
+
+
+/* =========================================
+   ACTIONS
+========================================= */
+
+.create-look__actions {
+    width: 100%;
+
+    display: flex;
+
+    gap: 16px;
+
+    margin-top: 24px;
+
+
+    background-size: 100% 8px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.create-look__btn {
+    width: 50%;
+    display: flex;
+
+    padding: 6px;
+
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    border: none;
+
+    border-radius: var(--radius-s, 4px);
+
+    background: var(--brand-rust, #C83A14);
+
+    cursor: pointer;
+}
+
+.create-look__btn span {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 24px;
+
+    box-sizing: border-box;
+
+    border-radius: var(--radius-xs, 2px);
+
+    border: 2px dashed var(--brand-gold-light, #ECAD47);
+
+    color: #FFF;
+
+    font-family: Nunito, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.create-look__btn:hover span {
+    border: 2px solid var(--brand-gold-light, #ECAD47);
+
+    background: var(--brand-gold-light, #ECAD47);
+
+    color: var(--brand-navy, #16305B);
+}
+
+
+/* =========================================
+   HOW IT SOUNDS
+========================================= */
+
+.howitsound {
+    width: 100%;
+    padding: 240px 0px 96px;
+    box-sizing: border-box;
+        background-image: url("../img/create_world.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* =========================================
+   MAIN BOX
+   ALL DESIGN IS HERE
+========================================= */
+.how_it_sound_mainbox{
+        width: 100%;
+    max-width: 974px;
+    margin: 0 auto;
+display: flex;
+padding: 64px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+border-radius: var(--radius-m, 8px);
+background: var(--brand-cream, #FBF3E0);
+    overflow: hidden;
+}
+
+
+/* =========================================
+   STEPPER
+========================================= */
+
+.how_it_sound_steps {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    position: relative;
+
+    margin-bottom: 0px;
+}
+
+.how_it_sound_steps::before {
+    content: "";
+
+    position: absolute;
+
+    top: 8px;
+
+    left: 12.5%;
+    right: 12.5%;
+
+    height: 2px;
+
+    background: rgba(22, 48, 91, 0.16);
+
+    z-index: 0;
+}
+
+
+.how_it_sound_step {
+    position: relative;
+
+    z-index: 1;
+
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: rgba(22, 48, 91, 0.55);
+
+    text-align: center;
+
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+
+    white-space: nowrap;
+    gap: 8px;
+}
+
+
+.how_it_sound_circle {
+    width: 16px;
+    height: 16px;
+
+    flex: 0 0 16px;
+
+    box-sizing: border-box;
+
+    border-radius: 50%;
+
+    background: var(--brand-cream, #FBF3E0);
+
+    border: 2px solid var(--brand-gold, #E9B04A);
+}
+
+
+.how_it_sound_step.active {
+    color: var(--brand-navy, #16305B);
+}
+
+
+.how_it_sound_step.active .how_it_sound_circle {
+    background: var(--brand-red, #D4452E);
+
+    border-color: var(--brand-red, #D4452E);
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.how_it_sound_header {
+    width: 100%;
+
+    text-align: center;
+
+    padding-bottom: 0px;
+}
+
+
+.how_it_sound_header h1 {
+    margin: 0;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Anton, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+    text-transform: uppercase;
+}
+
+
+.how_it_sound_header p {
+    max-width: 800px;
+
+    margin: 16px auto 0;
+
+    color: var(--brand-ink, #31486E);
+
+    text-align: center;
+
+    font-family: Nunito, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+
+/* =========================================
+   DESIGN
+========================================= */
+
+.how_it_sound_design {
+    width: 100%;
+
+    padding-top: 8px;
+
+    box-sizing: border-box;
+
+    background-size: 100% 8px;
+
+    background-repeat: no-repeat;
+
+    background-position: top;
+}
+
+
+/* =========================================
+   SECTION
+========================================= */
+
+.how_it_sound_section {
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.how_it_sound_section h2 {
+    margin: 0 0 16px;
+
+    color: var(--brand-rust, #C83A14);
+
+    font-family: "Nunito", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+
+    letter-spacing: 1.68px;
+
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+/* =========================================
+   OPTIONS
+========================================= */
+
+.how_it_sound_options {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 16px;
+}
+
+
+/* =========================================
+   RADIO OPTION
+========================================= */
+
+.how_it_sound_option {
+    position: relative;
+display: flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: var(--radius-full, 100px);
+border: 2px solid rgba(22, 48, 91, 0.20);
+color: var(--brand-navy, #16305B);
+
+/* body / regular */
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 27.9px */
+    cursor: pointer;
+}
+
+
+.how_it_sound_option input {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+
+    opacity: 0;
+
+    pointer-events: none;
+}
+
+
+/* SELECTED */
+
+.how_it_sound_option:has(input:checked) {
+    background: var(--brand-navy, #16305B);
+
+    border-color: var(--brand-navy, #16305B);
+
+    color: #FBF3E0;
+}
+
+.how_it_sound_option:has(input:checked) svg {
+    filter: brightness(0) invert(1);
+}
+
+
+/* =========================================
+   TEXTAREA
+========================================= */
+
+.how_it_sound_textarea {
+    width: 100%;
+
+    position: relative;
+}
+
+
+.how_it_sound_textarea textarea {
+    width: 100%;
+
+    height: 160px;
+    min-height: 132px;
+
+    padding: 16px 24px;
+
+    box-sizing: border-box;
+
+    resize: none;
+
+    border-radius: var(--radius-s, 4px);
+
+    border: 2px solid var(--brand-navy, #16305B);
+
+    background: #FFF;
+
+    box-shadow: 4px 4px 0 0 #16305B;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+
+    outline: none;
+}
+
+
+.how_it_sound_textarea textarea::placeholder {
+    color: rgba(22, 48, 91, 0.45);
+}
+
+
+.how_it_sound_counter {
+    display: block;
+
+    margin-top: 8px;
+color: var(--brand-navy-soft-55, rgba(22, 48, 91, 0.55));
+text-align: right;
+font-family: "Nunito";
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 15.4px */
+letter-spacing: 1.98px;
+text-transform: uppercase;
+}
+
+
+/* =========================================
+   ACTIONS
+========================================= */
+
+.how_it_sound_actions {
+    width: 100%;
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-top: 24px;
+
+    box-sizing: border-box;
+
+    background-size: 100% 8px;
+
+    background-repeat: no-repeat;
+
+    background-position: top;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.how_it_sound_btn {
+    width: 50%;
+
+    display: flex;
+
+    padding: 6px;
+
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    border: none;
+
+    border-radius: var(--radius-s, 4px);
+
+    background: var(--brand-rust, #C83A14);
+
+    cursor: pointer;
+}
+
+
+.how_it_sound_btn span {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 24px;
+
+    box-sizing: border-box;
+
+    border-radius: var(--radius-xs, 2px);
+
+    border: 2px dashed var(--brand-gold-light, #ECAD47);
+
+    color: #FFF;
+
+    text-align: center;
+
+    font-family: Nunito, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+
+.how_it_sound_btn:hover span {
+    border: 2px solid var(--brand-gold-light, #ECAD47);
+
+    background: var(--brand-gold-light, #ECAD47);
+
+    color: var(--brand-navy, #16305B);
+}
+
+
+/* MODAL */
+
+
+.token-modal .modal-dialog {
+    width: 620px;
+    max-width: calc(100% - 32px);
+
+    margin: 0 auto;
+}
+
+
+/* MODAL CONTENT */
+
+.token-modal__content {
+    width: 100%;
+
+    padding: 56px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 24px;
+
+    border: none;
+
+    border-radius: var(--radius-m, 8px);
+
+    background: var(
+        --brand-paper,
+        #FDEAC6
+    );
+
+    box-shadow:
+        0 20px 48px -10px
+        rgba(0, 0, 0, 0.34);
+}
+
+
+/* TITLE */
+
+.token-modal__content h2 {
+    margin: 0;
+
+    color: var(--brand-navy, #16305B);
+
+    text-align: center;
+
+    font-family: Anton, sans-serif;
+
+    font-size: 50px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: 120%;
+
+    text-transform: uppercase;
+}
+
+
+/* DESCRIPTION */
+
+.token-modal__content p {
+    width: 100%;
+
+    margin: 0;
+
+    color: var(--brand-ink, #31486E);
+
+    text-align: center;
+
+    font-family: Nunito, sans-serif;
+
+    font-size: 18px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: 155%;
+}
+
+
+/* ACTIONS */
+
+.token-modal__actions {
+    width: 100%;
+
+    display: flex;
+
+    gap: 8px;
+}
+
+
+/* BUTTON */
+
+.token-modal__btn {
+    width: 50%;
+    height: 48px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 6px;
+
+    box-sizing: border-box;
+
+    border-radius: var(--radius-s, 4px);
+
+    font-family: Nunito, sans-serif;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    line-height: 140%;
+
+    cursor: pointer;
+}
+
+
+/* NOT YET */
+
+.token-modal__btn--cancel {
+    color: var(--brand-navy, #16305B);
+
+    background: var(--brand-cream, #FBF3E0);
+
+    border: 2px dashed var(
+        --brand-gold-light,
+        #ECAD47
+    );
+}
+
+
+/* CONFIRM */
+
+.token-modal__btn--confirm {
+    color: #FFF;
+
+    background: var(--brand-rust, #C83A14);
+
+    border: 2px dashed var(
+        --brand-gold-light,
+        #ECAD47
+    );
+}
+
+
+/* HOVER */
+
+.token-modal__btn:hover {
+    border: 2px solid var(
+        --brand-gold-light,
+        #ECAD47
+    );
+
+    background: var(
+        --brand-gold-light,
+        #ECAD47
+    );
+
+    color: var(--brand-navy, #16305B);
+}
+
+
+/* =========================================
+   BOOTSTRAP BACKDROP
+========================================= */
+
+.token-modal .modal-backdrop {
+    background: var(
+        --brand-navy-deep,
+        #0E2244
+    );
+}
+
+.modal-backdrop.show {
+    opacity: 0.80;
+}
+
+
+
+/* CREATE STORY */
+
+
+
+
+
+.hero-dragon {
+    position: relative;
+
+    width: 100%;
+padding: 224px 0px 153px;
+    overflow: hidden;
+
+    background: var(--brand-navy, #16305B);
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.hero-dragon__content {
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.hero-dragon__content h1 {
+    margin: 0;
+color: var(--brand-cream, #FBF3E0);
+text-align: center;
+font-family: "Anton";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 76.8px */
+text-transform: uppercase;
+}
+
+
+/* =========================================
+   GRASS IMAGE
+========================================= */
+
+.hero-dragon__grass {
+    position: absolute;
+
+    z-index: 1;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: bottom center;
+
+    pointer-events: none;
+}
+
+/* =========================================================
+   CREATE STORY BOOK
+========================================================= */
+
+.create-story-book {
+    margin-top: -1px;
+    width: 100%;
+    padding: 64px 0 0px;
+
+    box-sizing: border-box;
+
+    background: #FBF3E0;
+
+    background-image:
+        url("../media/create-background-clouds.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* =========================================================
+   CONTAINER
+   STRUCTURAL ONLY
+========================================================= */
+
+.create-story-book > .container {
+    width: 100%;
+    max-width: 1320px;
+
+    margin: 0 auto;
+    padding: 0 24px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   MAIN BOX
+========================================================= */
+
+.create-story-book__mainbox {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   DESKTOP
+========================================================= */
+
+.create-story-book__desktop {
+    width: 100%;
+}
+
+
+/* =========================================================
+   BOOK SECTION
+========================================================= */
+
+.book-section {
+    width: 100%;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    text-align: center;
+    position: relative;
+}
+
+
+/* =========================================================
+   BOOK SPREAD
+
+   book_g.png = YOUR BOOK BACKGROUND
+========================================================= */
+
+.book-spread {
+    position: relative;
+
+    width: 100%;
+    max-width: 1260px;
+
+    height: 810px;
+
+    margin: 0 auto;
+
+    box-sizing: border-box;
+
+    background-image:
+        url("../img/book_g.png");
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    background-size: contain;
+
+    perspective: 2000px;
+}
+
+
+/* =========================================================
+   LEFT PAGE
+
+   No artificial border.
+   book_g.png provides the book frame.
+========================================================= */
+
+.book-left-page {
+    position: absolute;
+    top: 0%;
+    left: 9.5%;
+    width: 40.5%;
+
+
+    z-index: 2;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+
+    background: transparent;
+
+    border-radius: 14px 4px 4px 14px;
+}
+
+
+.book-left-page img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 12px 4px 4px 12px;
+}
+
+
+/* =========================================================
+   RIGHT FLIPPING PAGES
+
+   DO NOT RENAME .right
+   Your JS depends on it.
+========================================================= */
+
+.book-spread > .right {
+    position: absolute;
+
+    top: 3%;
+    right: 9.5%;
+height: 75%;
+    width: 40.5%;
+    z-index: 10;
+
+    transform-origin: left center;
+
+    transform-style: preserve-3d;
+
+    transition:
+        transform 0.7s ease-in-out;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   FRONT / BACK
+========================================================= */
+
+.right > figure.front,
+.right > figure.back {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    backface-visibility: hidden;
+
+    background: #FFFFFF;
+}
+
+
+/* =========================================================
+   FRONT
+========================================================= */
+
+.right > figure.front {
+    z-index: 2;
+
+    border: 0;
+
+    border-radius: 4px 14px 14px 4px;
+
+    box-shadow: none;
+
+    background: #FFFFFF;
+}
+
+
+/* =========================================================
+   BACK
+========================================================= */
+
+.right > figure.back {
+    z-index: 1;
+
+    transform: rotateY(180deg);
+
+    padding: 5px;
+
+    border: 0;
+
+    border-radius: 14px 4px 4px 14px;
+
+    background: #FFFFFF;
+}
+
+
+.right > figure.back img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 10px 3px 3px 10px;
+}
+
+
+/* =========================================================
+   FLIP
+========================================================= */
+
+.right.flip {
+    transform: rotateY(-180deg);
+}
+
+
+/* =========================================================
+   TEXT PAGE
+========================================================= */
+
+.fron-content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+
+    padding: 38px 38px 26px;
+
+    text-align: left;
+
+    overflow: hidden;
+}
+
+
+.story-text {
+    width: 100%;
+}
+
+
+.story-text p {
+    margin: 0 0 10px;
+
+    color: var(--brand-navy, #16305B);
+
+    font-family: Nunito, sans-serif;
+
+    font-size: 13px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: 155%;
+
+    text-align: left;
+}
+
+
+.story-text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   BOOK CONTROLS
+========================================================= */
+
+.book-controls {
+    position: absolute;
+   bottom: 213px;
+    right: 148px;
+    width: 100%;
+    max-width: 462px;
+
+    z-index: 100;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 10px;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   PAGINATION
+========================================================= */
+
+.book-pagination {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 32px;
+}
+
+
+.book-pagination button {
+  width: 32px;
+height: 32px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border: 0;
+
+    background: #16305B;
+
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.book-pagination button img {
+    width: 20px;
+    height: 20px;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+.book-pagination p {
+    margin: 0;
+color: var(--brand-navy, #16305B);
+
+font-family: "Nunito";
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 23.8px */
+}
+
+
+/* =========================================================
+   READ ALOUD
+========================================================= */
+
+.book-read-btn {
+    max-width: 169px;
+}
+
+
+/* =========================================================
+   DOWNLOAD
+========================================================= */
+
+.book-download-wrap {
+    width: 100%; 
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 22px;
+}
+
+
+.book-download-btn {
+max-width: 200px;
+position: absolute;
+    bottom: 90px;
+}
+
+
+
+/* =========================================================
+   MOBILE OFF
+========================================================= */
+
+.create-story-book__mobile {
+    display: none;
+}
+

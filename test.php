@@ -1,4 +1,5 @@
-<?php
-    echo "Test page loading"
-?>
+<?php include 'includes/header.php'; ?>
 
+
+
+<?php include 'includes/footer.php'; ?>

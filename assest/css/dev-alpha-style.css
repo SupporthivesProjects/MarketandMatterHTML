@@ -1,0 +1,194 @@
+
+/* --------------------header--------------------- */
+.site-nav {
+    width: 67.8rem;
+}
+.menu-panel {
+    width: 67.8rem;
+}
+.cart-panel {
+    width: 45rem;
+}
+/* --------------------header--------------------- */
+footer{
+    display: flex;
+    padding: 80px 0px  40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    align-self: stretch;
+    background: var(--brand-warm-black, #14130F);
+}
+.logoen{
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: Archivo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.26px;
+}
+.logourd{
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+    font-family: Alexandria;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.divider{
+    background: var(--brand-border-on-dark, rgba(243, 238, 228, 0.20));
+    width: 1px;
+    height: 26px;
+    position: relative;
+}
+.footer-logo a{
+    display: flex;
+    text-decoration: none;
+    gap: 14px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+
+.footer-menu-link h6{
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+    font-family: "Fragment Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.footer-menu-link a{
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: Archivo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+}
+.footer-menu-link ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 0px;
+}
+.footer-menu {
+    display: flex;
+    width: 667px;
+    gap: 0px;
+    float: right;
+}
+.footer-menu-link {
+    width: 60%;
+}
+.footer-logo p{
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+    font-family: Archivo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0px;
+}
+.footer-link-two{
+    display: flex;
+    width: 100%;
+}
+
+.foooter-img p{
+    display: none;
+}
+.container-one{
+    border-top: 1px solid rgba(243, 238, 228, 0.20);
+    padding-top: 64px !important;
+    margin-top: 64px;
+}
+.footer-bottom-link p{
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+    font-family: Archivo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 0px;
+}
+.footer-bottom-link ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+.footer-bottom-link ul li a{
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+    font-family: Archivo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 18.2px */
+    text-decoration: none;
+}
+.footer-bottom-link{
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+.footer-bottom-link-two{
+    display: flex;
+    gap: 24px;
+}
+.foooter-img{
+    display: flex;
+    gap: 8px;
+}
+.footer-bottom-link-two button{
+    display: flex;
+    padding: 9px 14px;
+    align-items: center;
+    gap: 10px;
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: "Fragment Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    border-radius: 8px;
+    border: 1px solid var(--brand-border-on-dark, rgba(243, 238, 228, 0.20));
+    background: transparent;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    border: 0px;
+    background: url(../img/chevron-down.svg) no-repeat;
+}
+
+.dropdown-toggle::after {
+    border: 0px;
+    background: url(../img/chevron-down.svg) no-repeat;
+    width: 12px;
+    height: 7px;
+}
+.footer-bottom-link-two {
+    display: flex;
+    gap: 24px;
+    width: 225px;
+    float: right;
+}
+.footer-navl-link{
+    display: flex;
+    width: 100%;
+}
