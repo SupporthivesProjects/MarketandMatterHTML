@@ -127,9 +127,10 @@
     <script src="assest/uiframe/js/aos.js"></script>
     <script src="./uiframe/js/home-js.js"></script>
     <script src="data/catalogue.js"></script>
-    <!-- <script src="assest/js/partials.js"></script> -->
-    <!-- <script src="assest/js/store.js"></script> -->
+    <script src="assest/js/partials.js"></script>
+    <script src="assest/js/store.js"></script>
     <script src="assest/js/site.js"></script>
+    <script src="assest/js/service.js"></script>
     <script>
       $(document).ready(function () {
           $(".navbar-toggler").click(function () {
