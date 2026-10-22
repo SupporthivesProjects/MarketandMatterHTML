@@ -9,6 +9,197 @@
 .cart-panel {
     width: 45rem;
 }
+
+.menu-panel__link{
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: Archivo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%;
+    letter-spacing: -0.26px;
+    text-transform: uppercase;
+}
+.menu-panel__service{
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+.menu-panel__service span{
+    color: var(--brand-mint, #8CCCAD);
+    font-family: "Fragment Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+}
+.menu-panel__service {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
+.site-nav__menu {
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: "Fragment Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+}
+
+.logo__wordmark{
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: Archivo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.18px;
+}
+.logo__arabic{
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: Alexandria;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.site-nav__login{
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: Archivo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.site-nav__right button {
+    color: var(--brand-text-on-dark, #F3EEE4);
+    font-family: Archivo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.site-nav__right {
+
+    gap: 12px;
+}
+.site-nav {
+    width: 648px;
+}
+.logo__divider {
+    width: 1px;
+    height: 20px;
+    background: currentColor;
+    opacity: 1;
+    background: var(--brand-border-on-dark, rgba(243, 238, 228, 0.20));
+}
+.site-nav {
+    width: 648px;
+    padding: 18px 24px;
+    height: 61px;
+    border-radius: 8px;
+    border: 1px solid var(--base-01, #383838);
+    background: var(--brand-overlay-nav, rgba(20, 19, 15, 0.92));
+}
+.menu-panel {
+    width: 648px;
+    padding: 81px 24px 24px 24px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.site-nav {
+    position: fixed;
+    z-index: 50;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.menu-panel__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.8rem;
+    padding-top: 2.8rem;
+    border-top: 1px solid rgba(243, 238, 228, 0.20);
+}
+.currency {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 20px;
+}
+.currency__label{
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+    font-family: "Fragment Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+}
+.currency {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+.segmented {
+    border-radius: 8px;
+    border: 1px solid var(--brand-border-on-dark, rgba(243, 238, 228, 0.20));
+    background: var(--brand-surface-dark-card, #1F1C18);
+    display: flex;
+    padding: 4px;
+    align-items: flex-start;
+    gap: 4px;
+}
+.segmented__option{
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.segmented__option.is-active {
+    background: var(--color-mist);
+    color: var(--color-ink);
+    border-radius: 8px;
+    background: var(--brand-paper, hsl(162deg 16% 95%));
+    color: var(--brand-text-on-light, #14130F);
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.menu_panel_sub{
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid rgba(243, 238, 228, 0.20);
+
+}
+.menu_panel_sub:first-child{
+   border-top: 1px solid rgba(243, 238, 228, 0.20);
+}
+.menu-panel__sub-inner {
+    overflow: hidden;
+    display: block;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 2.4rem;
+    width: fit-content;
+}
 /* --------------------header--------------------- */
 footer{
     display: flex;
