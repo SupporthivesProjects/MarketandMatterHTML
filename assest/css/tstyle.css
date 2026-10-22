@@ -1,9 +1,9 @@
 .desktop_nonet {
-    display: none;
+    display: none!important;
 }
 
 .mobile_nonet {
-    display: block;
+    display: block!important;
 }
 .aboutus_t h1,
 .aboutus_t h2,
@@ -39,11 +39,11 @@
 
 @media only screen and (max-width: 700px) {
     .mobile_nonet {
-        display: none;
+        display: none!important;
     }
 
     .desktop_nonet {
-        display: block;
+        display: block!important;
     }
 
     .diff_padt {
@@ -301,7 +301,7 @@ opacity: unset!important;
     position: absolute;
     left: 0;
     width: 100%;
-    top: -12%;
+    top: -0%;
     height: 124%;
     object-fit: cover;
     will-change: transform
@@ -779,8 +779,8 @@ opacity: unset!important;
   }
   .mm-fact {
     flex: 1;
-    background: var(--cell);
-    border: 1px solid rgba(20, 19, 15, .08);
+    border: 1px solid var(--brand-border-on-light, rgba(20, 19, 15, 0.08));
+background: var(--brand-surface-light, hsl(162deg 45.4545% 97.8431%));
     padding: calc(24 * var(--s));
     display: flex;
     flex-direction: column;
@@ -1421,7 +1421,7 @@ opacity: unset!important;
     flex: none
   }
   .mm-faq .mm-hs p:not(.mm-idx) {
-    font-size: calc(16 * var(--s));
+    font-size: calc(15 * var(--s));
     line-height: 1.5;
     opacity: .6
   }
@@ -1432,7 +1432,7 @@ opacity: unset!important;
     width: max-content;
     background: var(--warmblack);
     color: var(--paper);
-    border-radius: calc(4 * var(--s));
+    border-radius: calc(8 * var(--s));
     padding: calc(8 * var(--s)) calc(8 * var(--s)) calc(8 * var(--s)) calc(24 * var(--s));
     font-weight: 600;
     font-size: calc(16 * var(--s));
@@ -1443,7 +1443,7 @@ opacity: unset!important;
     height: calc(40 * var(--s));
     background: var(--btn);
     color: var(--warmblack);
-    border-radius: calc(2 * var(--s))
+    border-radius: calc(8 * var(--s))
   }
   .mm-cbtn .mm-aw svg {
     width: calc(14 * var(--s));
@@ -1458,11 +1458,12 @@ opacity: unset!important;
   .mm-q {
     background: var(--cell);
     border: 1px solid rgba(20, 19, 15, .08);
-    border-radius: 6px;
+    border-radius: 8px;
     transition: border-color .4s
   }
   .mm-q.mm-open {
-    border-color: rgba(30, 91, 71, .6)
+    border: 1px solid var(--brand-forest-green, #1E5B47);
+
   }
   .mm-q button {
     width: 100%;
@@ -1474,7 +1475,7 @@ opacity: unset!important;
     transition: padding .5s var(--ease);
     text-align: left;
     font-weight: 600;
-    font-size: calc(19 * var(--s));
+    font-size: calc(18 * var(--s));
     line-height: 1.3;
     letter-spacing: -.01em
   }
@@ -1520,7 +1521,7 @@ opacity: unset!important;
   .mm-q .mm-a p {
     max-width: calc(640 * var(--s));
     padding: 0 calc(28 * var(--s)) calc(24 * var(--s));
-    font-size: calc(16 * var(--s));
+    font-size: calc(15 * var(--s));
     line-height: 1.5;
     opacity: 0;
     transition: opacity .4s
@@ -2011,7 +2012,7 @@ opacity: unset!important;
     }
     .mm-q button {
       padding: 18px 20px;
-      font-size: 17px
+      font-size: 18px
     }
     .mm-q .mm-a p {
       padding: 0 20px 18px
