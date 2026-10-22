@@ -14,7 +14,7 @@
   <body>
   
   <div class="main-div">
-    <header class="header-top fixed-top" id="header-top">
+    <header class="header-top" id="header-top">
       <nav class="site-nav" aria-label="Main">
         <button class="site-nav__menu" type="button" data-menu-toggle="" aria-expanded="false" aria-controls="menu-panel">Menu</button>
         <a class="logo" href="index.html" aria-label="Market &amp; Matter, home">
@@ -34,18 +34,24 @@
           </button>
           <div class="menu-panel__sub">
             <div class="menu-panel__sub-inner">
-              <a class="menu-panel__service" href="seo.html">
-                <span>01</span>SEO </a>
-              <a class="menu-panel__service" href="paid-search.html">
-                <span>02</span>Paid search </a>
-              <a class="menu-panel__service" href="social-media.html">
-                <span>03</span>Social media </a>
-              <a class="menu-panel__service" href="email-marketing.html">
-                <span>04</span>Email marketing </a>
-              <a class="menu-panel__service" href="web-design.html">
+              <div class="menu_panel_sub">
+                <a class="menu-panel__service" href="seo.html">
+                  <span>01</span>SEO </a>
+                <a class="menu-panel__service" href="paid-search.html">
+                  <span>02</span>Paid search </a>
+              </div>
+              <div class="menu_panel_sub">
+                 <a class="menu-panel__service" href="social-media.html">
+                  <span>03</span>Social media </a>
+                <a class="menu-panel__service" href="email-marketing.html">
+                  <span>04</span>Email marketing </a>
+              </div>
+              <div class="menu_panel_sub">
+                <a class="menu-panel__service" href="web-design.html">
                 <span>05</span>Web design and development </a>
-              <a class="menu-panel__service" href="reputation.html">
+                <a class="menu-panel__service" href="reputation.html">
                 <span>06</span>Reputation </a>
+              </div>
               <a class="menu-panel__service menu-panel__service--all" href="services.html">
                 <span>07</span>All services and prices </a>
             </div>
