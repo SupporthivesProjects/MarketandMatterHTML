@@ -4,7 +4,7 @@
   <section class="hero hero--commerce">
     <img class="hero__media" src="assest/img/carved-wood-pattern.jpg" alt="" width="1600" height="2400" fetchpriority="high">
     <div class="hero__overlay"></div>
-    <div class="container hero__inner">
+    <div class="container hero__inner px-0">
       <div class="hero__copy">
         <p class="hero__label-row eyebrow eyebrow--muted">Order <span data-order-ref="">MM 10482</span>
         </p>
@@ -25,7 +25,7 @@
     </div>
   </section>
   <section class="section">
-    <div class="container commerce commerce--result">
+    <div class="container commerce commerce--result px-0">
       <div class="result">
         <span class="result__mark">
           <svg class="icon icon--check" viewBox="0 0 13 10" fill="none" aria-hidden="true">

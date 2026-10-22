@@ -1,0 +1,153 @@
+@media only screen and (max-device-width: 600px) {
+
+    .hero__inner, .where, .levels, .explained, .before ,.commerce {
+        padding: 0px 24px;
+        max-width: 327px;
+    }
+
+        .hero__video {
+        height: 100%;
+        min-height: 360px;
+        object-fit: cover;
+    }
+
+    .hero__feature {
+        margin: 0px;
+    }
+
+    .hero__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.hero--services .hero__top{
+    padding:32px 0px;
+}
+
+.section{
+    padding: 40px 0px;
+}
+
+.where__sticky {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.goal{
+    padding: 16px 0px;
+}
+
+.where .carousel-dots {
+        display: flex;
+        gap: 0.6rem;
+        margin-top: 1.6rem;
+    }
+
+    .service-grid{
+        margin:0px;
+    }
+
+        .where, .levels, .explained, .before {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .rule-col{
+        padding-top: 24px;
+    }
+
+    .stack--l {
+    gap: 32px;
+}
+
+
+.split{
+    padding: 0px;
+}
+
+    .split__copy--tight {
+        padding: 32px 24px;
+        gap: 16px;
+    }
+
+    .sweep{
+        min-width: 217px;
+    }
+
+    .cart-line__price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.cart-line{
+    padding: 24px 0px;
+}
+
+.data-cart-lines {
+    margin-top: 0px;
+}
+
+.commerce {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .data-cart-lines .cart-line:last-child{
+        padding-bottom: 0px;
+    }
+
+        .panel--cart .accept {
+        justify-content: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-device-width: 950px) and (max-device-width: 998px) {}
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1199px) {}
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1348px) {
+    
+}
+
+@media only screen and (min-device-width: 1349px) and (max-device-width: 1439px) {}
+
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1499px) {
+   .hero__feature,   .hero__inner, .where, .levels, .explained, .before ,.commerce {
+        padding: 0px 24px;
+        max-width: 1310px !important;
+    }
+   
+
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1699px) {}
+
+@media only screen and (min-device-width: 1700px) and (max-device-width: 1799px) {}
+
+@media only screen and (min-device-width: 1800px) and (max-device-width: 1919px) {}
+
+@media only screen and (min-device-width: 1920px) and (max-device-width: 1920px) {
+}

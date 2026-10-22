@@ -1,0 +1,122 @@
+/* SERVICES */
+
+.eyebrow , .display ,.hero--services .hero__intro ,.title-m ,.title-l,.heading-m {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.hero__feature {
+    width: 100%;
+    overflow: hidden;
+        border-radius: 8px;
+}
+
+.hero__video {
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.where__sticky {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.index-label ,.heading-l , .text-muted{
+        margin-bottom: 0px;
+}
+
+.section--dark .text-muted, .section--green .text-muted, .hero .text-muted, .account-side .text-muted{
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60)) !important;
+
+}
+
+.where__sticky .text-muted{
+    margin-bottom: 8px !important;
+}
+
+
+/* CART */
+.steps__item{
+    padding: 22px 0 32px 0;
+}
+
+.steps__item--active {
+    border-top: 2px solid rgba(243, 238, 228, 0.20);;
+}
+
+.data-cart-lines{
+    margin-top: 32px;
+}
+
+.cart-line__info{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+flex: 1 0 0;
+}
+
+.segmented{
+    flex-wrap: wrap;
+}
+
+.segmented__option{
+    font-size: 14px;
+
+}
+
+.cart-line__price{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 4px;
+}
+
+.data-cart-lines .cart-line:last-child {
+  border-bottom: none;
+}
+
+.panel--cart{
+    border-radius: 8px;
+border: 1px solid var(--brand-border-on-light, rgba(20, 19, 15, 0.08));
+background: var(--brand-surface-light, hsl(162deg 45.4545% 97.8431%));
+}
+
+.accept .card-logos svg{
+    display: flex;
+width: 56px;
+height: 36px;
+padding: 9px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: var(--base-white, #FFF);
+border: none;
+}
+
+.divider {
+    background: rgba(20, 19, 15, 0.08) !important;
+    width: 100% !important;
+    height: 1px !important;
+    position: relative !important;
+}
+
+.panel{
+    border-radius: 8px;
+border: 1px solid var(--brand-border-on-light, rgba(20, 19, 15, 0.08));
+background: var(--brand-surface-light, hsl(162deg 45.4545% 97.8431%));
+}
+
+.input{
+    background: var(--brand-surface-light, hsl(162deg 45.4545% 97.8431%));
+
+}
