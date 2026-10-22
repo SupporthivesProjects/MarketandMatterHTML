@@ -11,7 +11,7 @@
           <span class="hero__arabic" lang="ar" dir="rtl">كلمة مرور جديدة</span>
         </p>
         <h1 class="heading-l">Set a new password.</h1>
-        <p class="body text-muted">Choose one you have not used here before.</p>
+        <p class="forget-para text-muted">Choose one you have not used here before.</p>
         <div class="field">
           <label class="field__label" for="f-newpassword">New password</label>
           <div class="field__control">
