@@ -131,7 +131,10 @@ opacity: unset!important;
 }
 
 @media only screen and (min-width: 1152px) and (max-width:1279px) {
-
+    .overall_new_pd {
+        padding-left: 40px!important;
+        padding-right: 40px!important;
+    }
 }
 
 @media only screen and (min-width: 1280px) and (max-width:1348px) {
@@ -143,11 +146,17 @@ opacity: unset!important;
 }
 
 @media only screen and (min-width: 1440px) and (max-width:1499px) {
-    
+    .overall_new_pd {
+        padding-left: 80px!important;
+        padding-right: 80px!important;
+    }
 }
 
 @media only screen and (min-width: 1500px) and (max-width:1599px) {
-    
+    .overall_new_pd {
+        padding-left: 40px!important;
+        padding-right: 40px!important;
+    }
 }
 
 @media only screen and (min-width: 1600px) and (max-width:1699px) {
@@ -756,13 +765,13 @@ opacity: unset!important;
     letter-spacing: -.02em
   }
   .mm-stmt .mm-w {
-    color: rgba(18, 18, 18, 1);
+    color: var(--brand-text-on-light, #14130F);
+
     opacity: .16;
     transition: opacity .25s linear
   }
   .mm-stmt .mm-w.mm-dim {
-    color: rgba(18, 18, 18, .35);
-    opacity: .46
+    color: var(--brand-border-on-light, rgba(20, 19, 15, 0.08));
   }
   .mm-facts {
     display: flex;
@@ -775,29 +784,33 @@ opacity: unset!important;
     padding: calc(24 * var(--s));
     display: flex;
     flex-direction: column;
-    gap: calc(40 * var(--s));
+    gap: calc(16 * var(--s));
     margin-left: -1px
   }
   .mm-fact:first-child {
     margin-left: 0
   }
   .mm-fact .mm-k {
+    color: var(--brand-text-on-light-muted, rgba(20, 19, 15, 0.60));
+
     font-family: "Fragment Mono", monospace;
     font-size: calc(12 * var(--s));
     letter-spacing: .06em;
     text-transform: uppercase;
-    opacity: .5
   }
   .mm-fact .mm-v {
+    color: var(--brand-text-on-light, #14130F);
+
     font-weight: 500;
     font-size: calc(40 * var(--s));
     line-height: 1.2;
     letter-spacing: -.02em
   }
   .mm-fact .mm-d {
+    color: var(--brand-text-on-light-muted, rgba(20, 19, 15, 0.60));
+
     font-size: calc(15 * var(--s));
     line-height: 1.5;
-    opacity: .6;
     margin-top: calc(8 * var(--s))
   }
   .mm-pk {
@@ -1127,6 +1140,7 @@ opacity: unset!important;
     gap: calc(20 * var(--s))
   }
   .mm-wcopy h2 {
+    color: var(--brand-text-on-dark, #F3EEE4);
     font-weight: 500;
     font-size: calc(80 * var(--s));
     line-height: 1.02;
@@ -1136,7 +1150,7 @@ opacity: unset!important;
   .mm-wcopy>p:last-child {
     font-size: calc(18 * var(--s));
     line-height: 1.5;
-    opacity: .82;
+    color: var(--brand-text-on-dark, #F3EEE4);
     max-width: calc(640 * var(--s))
   }
   .mm-wstrip .mm-wrap {
@@ -1163,14 +1177,17 @@ opacity: unset!important;
     color: var(--mint)
   }
   .mm-wp b {
+    color: var(--brand-text-on-dark, #F3EEE4);
+
     font-weight: 500;
     font-size: calc(40 * var(--s));
     letter-spacing: -.02em
   }
   .mm-wp span {
-    font-size: calc(17 * var(--s));
+    color: var(--brand-text-on-dark-muted, rgba(243, 238, 228, 0.60));
+
+    font-size: calc(18 * var(--s));
     line-height: 1.5;
-    opacity: .7
   }
   .mm-hrow {
     display: flex;
@@ -1750,7 +1767,7 @@ opacity: unset!important;
     .mm-himg {
       display: block;
       width: 100%;
-      height: 340px;
+      height: 320px;
       object-fit: cover
     }
     .mm-frame {
@@ -1764,14 +1781,15 @@ opacity: unset!important;
     .mm-hero .mm-copy {
       position: static;
       width: auto;
-      padding: 40px 20px 32px
+      padding: 40px 24px;
     }
     .mm-hero .mm-meta span:first-child {
       display: none
     }
     .mm-hero .mm-label {
-      font-size: 15px;
-      margin-bottom: 16px
+        font-size: 18px;
+
+      margin-bottom: 24px;
     }
     .mm-hero .mm-row {
       flex-direction: column;
@@ -1780,15 +1798,16 @@ opacity: unset!important;
     }
     .mm-hero h1 {
       width: 100%;
-      font-size: 40px
+      font-size: 32px
     }
     .mm-hero .mm-side {
       width: 100%;
-      gap: 24px;
-      padding-bottom: 0
+      gap: 32px;
+      padding-bottom: 23px;
+
     }
     .mm-hero .mm-body {
-      font-size: 16px;
+      font-size: 18px;
       text-align: left
     }
     .mm-hbtn {
@@ -1799,21 +1818,25 @@ opacity: unset!important;
       font-size: 11px
     }
     .mm-pad {
-      padding: 64px 0
+        padding: 40px 24px;
+
     }
+    .mm-wrap {
+        margin: 0;
+      }
     .mm-h2 {
       font-size: 32px
     }
     .mm-intro .mm-row {
       flex-direction: column;
-      gap: 20px
+      gap: 24px
     }
     .mm-intro .mm-lc,
   .mm-stmt {
       width: 100%
     }
     .mm-stmt {
-      font-size: 26px
+      font-size: 28px
     }
     .mm-facts {
       flex-direction: column;
@@ -1822,7 +1845,7 @@ opacity: unset!important;
     .mm-fact {
       margin-left: 0;
       margin-top: -1px;
-      gap: 24px;
+      gap: 16px;
       padding: 24px
     }
     .mm-fact .mm-v {
@@ -1880,7 +1903,7 @@ opacity: unset!important;
     .mm-wimg {
       display: block;
       width: 100%;
-      aspect-ratio: 4 / 3;
+      height: 300px;
       object-fit: cover
     }
     .mm-wtop>.mm-par,
@@ -1891,15 +1914,14 @@ opacity: unset!important;
     .mm-wtop {
       height: auto;
       min-height: 0;
-      padding: 28px 0 8px
+      padding: 40px 24px 32px 24px;
+
     }
     .mm-wcopy {
       position: relative;
       left: auto;
       right: auto;
       bottom: auto;
-      margin: 0 20px;
-      gap: 16px
     }
     .mm-wcopy h2 {
       font-size: 32px;
@@ -1909,27 +1931,27 @@ opacity: unset!important;
       text-transform: uppercase
     }
     .mm-wcopy>p:last-child {
-      font-size: 15px;
+      font-size: 18px;
       opacity: 1
     }
     .mm-wstrip .mm-wrap {
       grid-template-columns: 1fr;
-      padding: 8px 0 32px
+      padding: 0px 24px 40px 24px;
+      gap: 32px;
     }
     .mm-wp,
   .mm-wp:first-child {
-      padding: 16px 0;
-      gap: 8px
+      padding:  0px;
+      gap: 12px;
     }
     .mm-wp+.mm-wp {
       border-left: 0
     }
     .mm-wp b {
-      font-size: 26px
+      font-size: 28px
     }
     .mm-wp span {
-      font-size: 15px;
-      opacity: .6
+      font-size: 18px;
     }
     .mm-term {
       justify-content: space-between
