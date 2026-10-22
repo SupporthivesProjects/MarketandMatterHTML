@@ -4,7 +4,7 @@
   <section class="hero hero--commerce">
     <img class="hero__media" src="assest/img/carved-wood-pattern.jpg" alt="" width="1600" height="2400" fetchpriority="high">
     <div class="hero__overlay"></div>
-    <div class="container hero__inner">
+    <div class="container hero__inner px-0">
       <div class="hero__copy">
         <p class="hero__label-row eyebrow eyebrow--muted">Step 2 of 3</p>
         <h1 class="display">Checkout</h1>
@@ -24,7 +24,7 @@
     </div>
   </section>
   <section class="section">
-    <form class="container commerce" data-checkout="" novalidate="">
+    <form class="container commerce px-0" data-checkout="" novalidate="">
       <div class="checkout-details">
         <div class="form-group">
           <h2 class="form-group__head">

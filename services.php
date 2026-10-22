@@ -4,7 +4,7 @@
     <div class="hero__top">
       <img class="hero__media" src="assest/img/sea-at-dusk.jpg" alt="" width="1920" height="1291" fetchpriority="high">
       <div class="hero__overlay hero__overlay--solid"></div>
-      <div class="container hero__inner">
+      <div class="container hero__inner px-0">
         <div class="hero__row">
           <div class="hero__copy">
             <p class="eyebrow">Services</p>
@@ -14,16 +14,30 @@
         </div>
       </div>
     </div>
-    <div class="container hero__feature-wrap">
-      <div class="hero__feature"><picture><source media="(max-width:820px)" srcset="assest/img/flower-shop-night-still-m.jpg"><img src="assest/img/flower-shop-night-still.jpg" alt="A man and a woman look at a laptop together in a library" decoding="async" width="1440" height="420"></picture></div>
-    </div>
+  
+<div class="container hero__feature px-0">
+    <video
+        class="hero__video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        aria-label="Service video"
+    >
+        <source src="assest/img/service_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
   </section>
 
   <section class="section">
-    <div class="container where">
+    <div class="container where px-0">
       <div class="where__sticky">
         <p class="index-label"><span class="index-label__index">01</span>Where to start</p>
-        <h2 class="heading-l">Match the<br>service to<br>the problem</h2>
+        <h2 class="heading-l d-none d-lg-block d-md-block">Match the<br>service to<br>the problem</h2>
+                <h2 class="heading-l d-block d-lg-none d-md-none">Match the service<br> to the problem</h2>
         <p class="text-muted">Every price here is Bronze, the entry tier.</p>
         <div>
           <div class="goal"><span>Get discovered</span><small>SEO · Paid search</small></div>
@@ -50,7 +64,7 @@
   </section>
 
   <section class="section section--dark">
-    <div class="container levels">
+    <div class="container levels px-0">
       <div class="stack">
         <p class="index-label" data-reveal><span class="index-label__index">02</span>Choosing a level</p>
         <h2 class="heading-l" data-reveal>Your size sets the tier</h2>
