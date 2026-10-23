@@ -1,0 +1,223 @@
+.legal {
+    padding: 110px 0px 0px 0px;
+}
+
+.legal .tc {
+    padding: 0px 0px 104px 0px;
+}
+
+.legal__title {
+    padding: 64px 0px 64px 0px;
+    gap: 16px;
+    margin: 0px;
+}
+
+.legal__title .eyebrow--muted {
+    color: rgba(20, 19, 15, 0.60);
+    margin: 0px;
+}
+
+.legal__title .heading-l {
+    margin: 0px;
+}
+
+.text-muted {
+    margin: 0px;
+    color: rgba(20, 19, 15, 0.60) !important;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: rgba(20, 19, 15, 0.08);
+}
+
+.legal__clauses {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.legal__clause {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.legal__clause .title-m {
+    color: var(--brand-text-on-light, #14130F);
+font-family: Archivo;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: -0.22px;
+margin: 0px;
+}
+
+.legal__clause .text-muted {
+    color: rgba(20, 19, 15, 0.60) !important;
+font-family: Archivo;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin: 0px;
+}
+
+.not-found {
+    padding: 150px 0px 120px 0px;
+    gap: 48px;
+}
+
+.not-found__copy {
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+}
+
+.not-found__arch .not-found__code {
+    color: var(--brand-text-on-dark, #F3EEE4);
+text-align: center;
+font-family: Archivo;
+font-size: 240px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: -9.6px;
+}
+
+.not-found__copy .eyebrow--green {
+    color: var(--brand-forest-green, #1E5B47);
+margin: 0px;
+font-family: "Fragment Mono";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0.72px;
+text-transform: uppercase;
+}
+
+.not-found__copy .heading-l {
+    color: var(--brand-text-on-light, #14130F);
+margin: 0px;
+font-family: Archivo;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: -0.96px;
+}
+
+.not-found__copy .text-muted {
+    color: var(--brand-text-on-light-muted, rgba(20, 19, 15, 0.60)) !important;
+text-align: center;
+margin: 0px;
+font-family: Archivo;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+.result__buttons {
+    display: flex;
+padding-top: 8px;
+flex-direction: row;
+gap: 16px;
+}
+
+.result__buttons .sweep {
+    display: flex;
+padding: 8px 8px 8px 24px;
+align-items: center;
+gap: 16px;
+flex-direction: row;
+color: var(--brand-text-on-dark, #F3EEE4);
+font-family: Archivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.result__buttons .button__icon {
+    display: flex;
+width: 40px;
+height: 40px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: var(--brand-paper, hsl(162deg 16% 95%));
+}
+
+.result__buttons .button--ghost {
+    color: var(--brand-text-on-light, #14130F);
+font-family: Archivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+padding: 0 24px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+
+@media (max-width: 735px) {
+
+    .legal .tc {
+    padding: 0px
+}
+
+    .legal__title{
+        padding: 48px 24px;
+    }
+
+    .legal__clauses {
+        padding: 0 24px 40px 24px;
+    }
+
+    .not-found {
+    padding: 142px 24px 40px 24px !important;
+    gap: 24px;
+    margin: 0px !important;
+}
+
+    .not-found__arch .not-found__code {
+    color: var(--brand-text-on-dark, #F3EEE4);
+text-align: center;
+font-family: Archivo;
+font-size: 96px;
+font-style: normal;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: -1.92px;
+margin-top: 112px;
+}
+
+.not-found__copy .heading-l {
+    color: var(--brand-text-on-light, #14130F);
+margin: 0px;
+font-family: Archivo;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: -0.96px;
+}
+
+.result__buttons {
+    gap: 12px;
+}
+
+.result__buttons .button--ghost {
+    display: flex;
+    padding: 0 24px;
+justify-content: space-between;
+}
+
+}

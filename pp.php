@@ -2,11 +2,12 @@
 
 
 <main class="legal">
-    <div class="container">
+    <div class="container tc">
         <div class="legal__title">
             <p class="eyebrow eyebrow--muted">Legal</p>
             <h1 class="heading-l">Privacy policy</h1>
             <p class="text-muted">Last updated 8 October 2026</p>
+            <div class="line"></div>
         </div>
         <div class="legal__clauses">
             <div class="legal__clause">
