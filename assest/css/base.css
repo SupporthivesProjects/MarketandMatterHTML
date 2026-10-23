@@ -295,8 +295,10 @@ ul {
 }
 .button--light {
   background: var(--color-mist);
+border-radius: 8px;
+border: 0px;
   color: var(--color-ink);
-  --sweep: var(--color-mist-hover);
+  --sweep: var(--color-green);;
 }
 .button--light .button__icon {
   background: var(--color-ink);

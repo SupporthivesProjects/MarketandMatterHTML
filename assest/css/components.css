@@ -730,7 +730,7 @@
 }
 .explained__sticky {
   position: sticky;
-  top: 12rem;
+  /* top: 12rem; */
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
@@ -897,13 +897,20 @@
   border: 1px solid var(--paper-line);
   font-weight: 600;
   font-size: max(1.6rem, var(--floor-body));
-  --sweep: rgba(243, 238, 228, 0.1);
+  --sweep: var(--brand-paper, hsl(162deg 16% 95%));
+  
+}
+.tier-card__button:hover{
+color: var(--brand-text-on-light, #14130F);
 }
 .tier-card--featured .tier-card__button {
   background: var(--color-mist);
-  border-color: var(--color-mist);
+  border: 0px;
   color: var(--color-ink);
-  --sweep: var(--color-mist-hover);
+  --sweep: var(--brand-warm-black, #14130F);
+}
+.tier-card--featured .tier-card__button:hover{
+  color: var(--brand-text-on-dark, #F3EEE4);
 }
 .tier-card__button.is-added {
   background: var(--color-mint);

@@ -3,15 +3,15 @@
   <section class="hero hero--service">
     <img class="hero__media" src="assest/img/filming-on-a-phone.jpg" alt="Filming on a phone" width="2400" height="1600" fetchpriority="high">
     <div class="hero__overlay hero__overlay--bottom"></div>
-    <div class="container hero__inner hero__row">
+    <div class="container hero__inner hero__row serv1-inner">
       <div class="hero__copy">
-        <p class="eyebrow">Service 03</p>
+        <p class="serv-eyebrow">Service 03</p>
         <h1 class="display">
           <span class="display__muted">Social</span> media
         </h1>
       </div>
       <div class="hero__offer">
-        <p class="lead text-muted">We plan, make and post your content so your feeds stay active and worth following.</p>
+        <p class="serv-lead">We plan, make and post your content so your feeds stay active and worth following.</p>
         <p class="hero__from">
           <b data-price-from="social-media" data-style="amount"></b>
           <span>a month, Bronze</span>
@@ -26,7 +26,7 @@
     </div>
   </section>
   <section class="section section--mist">
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="section-head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -77,7 +77,7 @@
     </div>
   </section>
   <section class="section">
-    <div class="container explained">
+    <div class="container explained serv1-inner">
       <div class="explained__sticky">
         <p class="index-label">
           <span class="index-label__index">02</span>Explained
@@ -122,7 +122,7 @@
   <section class="section section--dark pricing" id="pricing" data-service="social-media">
     <div class="pricing__pattern" aria-hidden="true"></div>
     <div class="pricing__fade" aria-hidden="true"></div>
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="pricing__head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -189,7 +189,7 @@
     </div>
   </section>
   <section class="section section--white">
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="section-head">
         <div class="stack">
           <p class="index-label" data-reveal>

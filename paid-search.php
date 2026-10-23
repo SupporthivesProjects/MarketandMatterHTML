@@ -3,15 +3,15 @@
   <section class="hero hero--service">
     <img class="hero__media" src="assest/img/google-search-page.jpg" alt="A phone showing a Google search page" width="2400" height="1607" fetchpriority="high">
     <div class="hero__overlay hero__overlay--bottom"></div>
-    <div class="container hero__inner hero__row">
+    <div class="container hero__inner hero__row serv1-inner">
       <div class="hero__copy">
-        <p class="eyebrow">Service 02</p>
+        <p class="serv-eyebrow">Service 02</p>
         <h1 class="display">
           <span class="display__muted">Paid</span> search
         </h1>
       </div>
       <div class="hero__offer">
-        <p class="lead text-muted">We set up and run your Google Ads so you show at the top for the searches that sell.</p>
+        <p class="serv-lead">We set up and run your Google Ads so you show at the top for the searches that sell.</p>
         <p class="hero__from">
           <b data-price-from="paid-search" data-style="amount"></b>
           <span>a month, Bronze</span>
@@ -26,7 +26,7 @@
     </div>
   </section>
   <section class="section section--mist">
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="section-head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -77,7 +77,7 @@
     </div>
   </section>
   <section class="section">
-    <div class="container explained">
+    <div class="container explained serv1-inner">
       <div class="explained__sticky">
         <p class="index-label">
           <span class="index-label__index">02</span>Explained
@@ -122,7 +122,7 @@
   <section class="section section--dark pricing" id="pricing" data-service="paid-search">
     <div class="pricing__pattern" aria-hidden="true"></div>
     <div class="pricing__fade" aria-hidden="true"></div>
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="pricing__head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -189,7 +189,7 @@
     </div>
   </section>
   <section class="section section--white">
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="section-head">
         <div class="stack">
           <p class="index-label" data-reveal>

@@ -3,15 +3,15 @@
   <section class="hero hero--service">
     <img class="hero__media" src="assest/img/two-screens-page-designs.jpg" alt="Two screens showing page designs" width="2400" height="1600" fetchpriority="high">
     <div class="hero__overlay hero__overlay--bottom"></div>
-    <div class="container hero__inner hero__row">
+    <div class="container hero__inner hero__row serv1-inner">
       <div class="hero__copy">
-        <p class="eyebrow">Service 05</p>
+        <p class="serv-eyebrow">Service 05</p>
         <h1 class="display">
           <span class="display__muted">Web design and</span> development
         </h1>
       </div>
       <div class="hero__offer">
-        <p class="lead text-muted">We design and build a fast, clear website that turns visitors into enquiries and sales.</p>
+        <p class="serv-lead">We design and build a fast, clear website that turns visitors into enquiries and sales.</p>
         <p class="hero__from">
           <b data-price-from="web-design" data-style="amount"></b>
           <span>one off, Bronze</span>
@@ -26,7 +26,7 @@
     </div>
   </section>
   <section class="section section--mist">
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="section-head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -82,7 +82,7 @@
     </div>
   </section>
   <section class="section">
-    <div class="container explained">
+    <div class="container explained serv1-inner">
       <div class="explained__sticky">
         <p class="index-label">
           <span class="index-label__index">02</span>Explained
@@ -127,7 +127,7 @@
   <section class="section section--dark pricing" id="pricing" data-service="web-design">
     <div class="pricing__pattern" aria-hidden="true"></div>
     <div class="pricing__fade" aria-hidden="true"></div>
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="pricing__head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -185,7 +185,7 @@
     </div>
   </section>
   <section class="section section--white">
-    <div class="container">
+    <div class="container serv1-inner">
       <div class="section-head">
         <div class="stack">
           <p class="index-label" data-reveal>

@@ -4,13 +4,13 @@
     <section class="hero hero--service">
         <img class="hero__media" src="assest/img/map-on-a-phone.jpg" alt="A hand holding a phone with a map open" width="2400" height="1600" fetchpriority="high">
         <div class="hero__overlay hero__overlay--bottom"></div>
-        <div class="container hero__inner hero__row">
+        <div class="container hero__inner hero__row serv1-inner" data-aos="fade-up">
             <div class="hero__copy">
-                <p class="eyebrow">Service 01</p>
-                <h1 class="display"><span class="display__muted">Search engine</span> optimisation</h1>
+                <p class="serv-eyebrow">Service 01</p>
+                <h1 class="serv-display"><span class="display__muted">Search engine</span> optimisation</h1>
             </div>
             <div class="hero__offer">
-                <p class="lead text-muted">We work on your site, content and Google listing so people find you when they search.</p>
+                <p class="serv-lead">We work on your site, content and Google listing so people find you when they search.</p>
                 <p class="hero__from"><b data-price-from="seo" data-style="amount">From €109</b><span>a month, Bronze</span></p>
                 <a class="button button--light sweep" href="#pricing">See services<span class="button__icon"><svg class="icon icon--arrow-up" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 11L11 3M11 3H4.5M11 3V9.5" stroke="currentColor" stroke-width="1.6"></path></svg></span></a>
             </div>
@@ -18,7 +18,7 @@
     </section>
 
     <section class="section section--mist">
-        <div class="container">
+        <div class="container serv2-inner" data-aos="fade-up">
             <div class="section-head">
                 <div class="stack">
                     <p class="index-label is-in" data-reveal="" style="--reveal-delay: 0s;"><span class="index-label__index">01</span>The work</p>
@@ -56,6 +56,10 @@
                     <h3 class="title-l">Support 7 days a week</h3>
                     <p class="text-muted">Write to us any day of the week and a person replies.</p>
                 </article>
+                <article class="card card--job is-in" data-reveal="" style="--reveal-delay: 0.16s;"><span class="card__index">08</span>
+                    <h3 class="title-l">Support 7 days a week</h3>
+                    <p class="text-muted">Write to us any day of the week and a person replies.</p>
+                </article>
             </div>
             <div class="carousel-dots" data-carousel-dots="">
                 <button type="button" aria-label="Show item 1" class="is-active"></button>
@@ -70,25 +74,25 @@
     </section>
 
     <section class="section">
-        <div class="container explained">
+        <div class="container explained serv3-inner" data-aos="fade-up">
             <div class="explained__sticky">
                 <p class="index-label"><span class="index-label__index">02</span>Explained</p>
                 <h2 class="heading-l">How SEO brings<br>in customers</h2>
             </div>
             <div class="explained__blocks">
-                <div class="explained__block is-in" data-reveal="" style="--reveal-delay: 0s;">
+                <div class="explained__block is-in" data-reveal="" style="--reveal-delay: 0s;" data-aos="fade-up">
                     <h3 class="title-s">What Google looks for</h3>
                     <p class="lead text-muted">Google ranks the page that answers a search best and loads without fuss. That comes down to three things: the words on the page, how the site is built and how many trusted sites point to it. We work on all three every month.</p>
                 </div>
-                <div class="explained__block is-in" data-reveal="" style="--reveal-delay: 0s;">
+                <div class="explained__block is-in" data-reveal="" style="--reveal-delay: 0s;" data-aos="fade-up">
                     <h3 class="title-s">Why the map matters</h3>
                     <p class="lead text-muted">Most searches for a service nearby end on the map, not the list under it. A complete, active Google Business Profile is often the quickest way to show up there, which is why it is in every tier.</p>
                 </div>
-                <div class="explained__block is-in" data-reveal="" style="--reveal-delay: 0s;">
+                <div class="explained__block is-in" data-reveal="" style="--reveal-delay: 0s;" data-aos="fade-up">
                     <h3 class="title-s">Where AI search fits</h3>
                     <p class="lead text-muted">ChatGPT and Google AI Overviews now answer many questions before anyone clicks. They pull from pages that are clear, well structured and trusted. Silver and Gold shape your pages so those answers name you.</p>
                 </div>
-                <div class="explained__block is-in" data-reveal="" style="--reveal-delay: 0s;">
+                <div class="explained__block is-in" data-reveal="" style="--reveal-delay: 0s;" data-aos="fade-up">
                     <h3 class="title-s">What changes month by month</h3>
                     <p class="lead text-muted">The first month is setup and fixes. After that, rankings move as posts go live and links build up. Every change shows in your monthly report, keyword by keyword.</p>
                 </div>
@@ -96,7 +100,7 @@
         </div>
     </section>
 
-    <section class="split section--surface">
+    <section class="split section--surface" data-aos="fade-up">
         <div class="split__image"><img src="assest/img/searching-on-a-phone.jpg" alt="A woman searching on her phone outdoors" loading="lazy" decoding="async" width="1400" height="933"></div>
         <div class="split__copy">
             <p class="index-label is-in" data-reveal="" style="--reveal-delay: 0s;"><span class="index-label__index">03</span>Why SEO</p>
@@ -107,10 +111,10 @@
             </div>
         </div>
     </section>
-    <section class="section section--dark pricing" id="pricing" data-service="seo">
+    <section class="section section--dark pricing" id="pricing" data-service="seo" data-aos="fade-up">
         <div class="pricing__pattern" aria-hidden="true"></div>
         <div class="pricing__fade" aria-hidden="true"></div>
-        <div class="container">
+        <div class="container serv5-cont">
             <div class="pricing__head">
                 <div class="stack">
                     <p class="index-label is-in" data-reveal="" style="--reveal-delay: 0s;"><span class="index-label__index">04</span>Pricing</p>
@@ -232,7 +236,7 @@
     </section>
 
     <section class="section section--mist">
-        <div class="container">
+        <div class="container serv6-inner" data-aos="fade-up">
             <div class="section-head">
                 <div class="stack">
                     <p class="index-label is-in" data-reveal="" style="--reveal-delay: 0s;"><span class="index-label__index">05</span>Choosing</p>
@@ -261,7 +265,7 @@
         </div>
     </section>
 
-    <section class="split">
+    <section class="split" data-aos="fade-up">
         <div class="split__image rise is-in" style="--rise-delay: 0s;"><img src="assest/img/sticky-note-plan.jpg" alt="Two people planning with sticky notes on a glass wall" loading="lazy" decoding="async" width="1600" height="1067" data-media="1" class=""></div>
         <div class="split__copy split__copy--form rise is-in" style="--rise-delay: 0.07s;">
             <p class="eyebrow eyebrow--green">Custom service</p>
