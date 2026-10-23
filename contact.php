@@ -1,9 +1,20 @@
 <?php include 'includes/header.php'; ?>
+<style>
+   h1, p, dd, h2, h3, h4, h5, h6{
+      margin-bottom: 0px
+   }
+   .contact_container .form{
+      gap: 32px;
+   }
+   .lead.text-muted{
+      color: var(--paper-muted) !important;
+   }
+</style>
 <main>
-   <section class="hero hero--image">
+   <section class="hero hero--image contact_s1">
       <img class="hero__media" src="assest/img/dubai-skyline.jpg" alt="" width="2400" height="1600" fetchpriority="high">
       <div class="hero__overlay"></div>
-      <div class="container hero__inner hero__row">
+      <div class="container hero__inner hero__row contact_container">
          <div class="hero__copy hero__copy--narrow">
             <p class="eyebrow">Contact</p>
             <h1 class="display">
@@ -30,7 +41,7 @@
       </div>
    </section>
    <section class="section contact-section">
-      <div class="container contact">
+      <div class="container contact contact_container">
          <div class="contact__photo" data-reveal>
             <img src="assest/img/reading-laptop-cafe.jpg" alt="A woman reading on a laptop in a cafe" decoding="async" width="900" height="1350">
          </div>
@@ -105,8 +116,8 @@
          </form>
       </div>
    </section>
-   <section class="section section--mist">
-      <div class="container before">
+   <section class="section section--mist contact_s3">
+      <div class="container before contact_container">
          <div class="stack">
             <p class="index-label" data-reveal>
                <span class="index-label__index">01</span>Before you write
