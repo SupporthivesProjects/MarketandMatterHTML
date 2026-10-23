@@ -1,10 +1,13 @@
 <?php include 'includes/header.php'; ?>
 <style>
    h1, p, dd, h2, h3, h4, h5, h6{
-      margin: 0px
+      margin-bottom: 0px
    }
    .contact_container .form{
       gap: 32px;
+   }
+   .lead.text-muted{
+      color: var(--paper-muted) !important;
    }
 </style>
 <main>

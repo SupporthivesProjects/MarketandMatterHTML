@@ -1,6 +1,60 @@
 <?php include 'includes/header.php'; ?>
+
+<style>
+   h1, p, dd, h2, h3, h4, h5, h6{
+      margin-bottom: 0px
+   }
+   .lead.text-muted{
+      color: var(--paper-muted) !important;
+  }
+  .how_s3 .lead.text-muted, .how_s4 .lead.text-muted, .how_s5 .lead.text-muted{
+    color: var(--bs-secondary-color)!important;
+  }
+  .how_s4{
+    max-width: 1920px;
+    margin: auto;
+  }
+  .how_s5{
+    max-width: 1920px;
+    margin: auto;
+  }
+  .order-steps{
+    align-items: stretch;
+  }
+  .order-step__mock {
+    height: -webkit-fill-available;
+  }
+  .order-steps {
+    align-items: stretch;
+}
+.secure-card{
+  align-self: center;
+}
+.order-steps {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: stretch;
+}
+
+.order-steps .order-step {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+}
+.tier-card--mini .figures{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.tier-card--mini{
+  gap: 24px
+}
+[data-carousel] > *{
+  scroll-snap-align: center;
+}
+</style>
+
 <main>
-  <section class="hero hero--how">
+  <section class="hero hero--how how_s1">
     <img class="hero__media" src="assest/img/mountain-landscape.jpg" alt="" width="2000" height="1125" fetchpriority="high">
     <div class="hero__overlay"></div>
     <div class="container hero__inner work_container">
@@ -22,9 +76,9 @@
       </div>
     </div>
   </section>
-  <section class="section section--mist">
+  <section class="section section--mist how_s2">
     <div class="container work_container">
-      <div class="section-head section-head--stack">
+      <div class="section-head section-head--stack work_continner">
         <p class="index-label" data-reveal>
           <span class="index-label__index">01</span>How to order
         </p>
@@ -155,7 +209,7 @@
       <div class="carousel-dots" data-carousel-dots></div>
     </div>
   </section>
-  <section class="section">
+  <section class="section how_s3">
     <div class="container work_container">
       <div class="section-head section-head--stack">
         <p class="index-label" data-reveal>
@@ -188,7 +242,7 @@
       </div>
     </div>
   </section>
-  <section class="split section--mist">
+  <section class="split section--mist how_s4">
     <div class="split__image">
       <img src="assest/img/boutique-owner-shop.jpg" alt="A boutique owner holding a folder in her shop" loading="lazy" decoding="async" width="1920" height="1080">
     </div>
@@ -198,8 +252,8 @@
       </p>
       <h2 class="heading-l" data-reveal>What you hold when <br>the last month closes </h2>
       <div class="prose lead text-muted" data-reveal>
-        <p>Nothing we set up sits behind our login. We work inside your profiles, your ad accounts and your site, so when a term closes, the people doing the work change and the ownership does not.</p>
-        <p>There is nothing to hand back and nothing to transfer.</p>
+        <p>Nothing we set up sits behind our login. We work inside your profiles, your ad accounts and your site, so when a term closes, the people doing the work change and the ownership does not.<br><br>
+        There is nothing to hand back and nothing to transfer.</p>
       </div>
       <div class="keep-list" data-reveal>
         <div class="keep-list__item">
@@ -217,16 +271,16 @@
       </div>
     </div>
   </section>
-  <section class="split split--reverse">
+  <section class="split split--reverse how_s5">
     <div class="split__copy split__copy--left">
       <p class="index-label" data-reveal>
         <span class="index-label__index">04</span>Why fixed services
       </p>
       <h2 class="heading-l" data-reveal>Marketing you <br>can plan around </h2>
       <div class="prose lead text-muted" data-reveal>
-        <p>Most marketing is bought on trust. You agree a monthly fee, wait for results and hope the report explains where the money went.</p>
-        <p>A fixed service works the other way round. The work is set before you order, and you pick how long it runs. When the term ends, you decide what comes next, knowing what the last one did.</p>
-        <p>It makes marketing a line in your budget, not an open question.</p>
+        <p>Most marketing is bought on trust. You agree a monthly fee, wait for results and hope the report explains where the money went.<br><br>
+        A fixed service works the other way round. The work is set before you order, and you pick how long it runs. When the term ends, you decide what comes next, knowing what the last one did.<br><br>
+        It makes marketing a line in your budget, not an open question.</p>
       </div>
       <div data-reveal>
         <a class="button button--light sweep" href="services.html">Browse services <span class="button__icon">
