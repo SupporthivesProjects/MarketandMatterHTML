@@ -1,7 +1,7 @@
 p,h1,h2,h3,h4,h5{
     margin-bottom: 0px;
 }
-.serv2-inner,.serv1-inner,.serv3-inner,.serv5-cont,.serv6-inner{
+.serv2-inner,.serv1-inner,.serv3-inner,.serv5-cont,.serv6-inner,.serv8-inner{
     padding: 0px;
 }
 
@@ -41,3 +41,73 @@ font-weight: 400;
 line-height: 150%; /* 27px */
 }
 
+@media screen and (max-width:700px){
+    .serv1-inner{
+        padding: 40px 24px;
+    gap: 32px;
+    }
+    .serv2-inner .section-head{
+        margin-bottom: 32px;
+    }
+    .serv2{
+        padding: 32px 24px;
+    }
+    .serv2-inner .jobs{
+        margin: 0px;
+    }
+    .serv2-inner .jobs .card{
+        padding: 24px;
+    }
+    .serv3{
+        padding: 40px 24px;
+    }
+    .serv3-inner{
+        gap: 32px;
+    }
+    .explained__sticky{
+        gap: 16px;
+    }
+    .explained__blocks{
+        gap: 24px;
+        
+    }
+    .explained__block{
+        padding-bottom: 24px;
+    }
+    .serv4-inner{
+        padding: 40px 24px;
+    gap: 24px;
+    }
+    .serv4{
+        padding: 0px;
+    }
+    .serv5,.serv6{
+        padding: 40px 24px;
+    }
+    .serv5 .pricing__head{
+        margin-bottom: 24px;
+    }
+    .serv6 .section-head{
+        margin-bottom: 32px;
+        gap: 16px;
+    }
+    .serv6 .section-head .stack{
+        gap: 16px;
+    }
+    .term-picker {
+        gap: 16px;
+    }
+    .tier-cards{
+        margin: 0px;
+    }
+    .serv7{
+        padding:0px;
+    }
+    .serv7 .rise.is-in {
+        padding: 32px 24px;
+        gap: 16px;
+    }
+    .serv8{
+        padding: 40px 24px;
+    }
+}

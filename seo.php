@@ -17,7 +17,7 @@
         </div>
     </section>
 
-    <section class="section section--mist">
+    <section class="section section--mist serv2">
         <div class="container serv2-inner" data-aos="fade-up">
             <div class="section-head">
                 <div class="stack">
@@ -73,7 +73,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section serv3">
         <div class="container explained serv3-inner" data-aos="fade-up">
             <div class="explained__sticky">
                 <p class="index-label"><span class="index-label__index">02</span>Explained</p>
@@ -100,9 +100,9 @@
         </div>
     </section>
 
-    <section class="split section--surface" data-aos="fade-up">
+    <section class="split section--surface serv4" data-aos="fade-up">
         <div class="split__image"><img src="assest/img/searching-on-a-phone.jpg" alt="A woman searching on her phone outdoors" loading="lazy" decoding="async" width="1400" height="933"></div>
-        <div class="split__copy">
+        <div class="split__copy serv4-inner">
             <p class="index-label is-in" data-reveal="" style="--reveal-delay: 0s;"><span class="index-label__index">03</span>Why SEO</p>
             <h2 class="heading-l is-in" data-reveal="" style="--reveal-delay: 0s;">Search is where<br>most buying starts</h2>
             <div class="prose body text-muted is-in" data-reveal="" style="--reveal-delay: 0s;">
@@ -111,7 +111,7 @@
             </div>
         </div>
     </section>
-    <section class="section section--dark pricing" id="pricing" data-service="seo" data-aos="fade-up">
+    <section class="section section--dark pricing serv5" id="pricing" data-service="seo" data-aos="fade-up">
         <div class="pricing__pattern" aria-hidden="true"></div>
         <div class="pricing__fade" aria-hidden="true"></div>
         <div class="container serv5-cont">
@@ -235,7 +235,7 @@
         </div>
     </section>
 
-    <section class="section section--mist">
+    <section class="section section--mist serv6">
         <div class="container serv6-inner" data-aos="fade-up">
             <div class="section-head">
                 <div class="stack">
@@ -265,7 +265,7 @@
         </div>
     </section>
 
-    <section class="split" data-aos="fade-up">
+    <section class="split serv7" data-aos="fade-up">
         <div class="split__image rise is-in" style="--rise-delay: 0s;"><img src="assest/img/sticky-note-plan.jpg" alt="Two people planning with sticky notes on a glass wall" loading="lazy" decoding="async" width="1600" height="1067" data-media="1" class=""></div>
         <div class="split__copy split__copy--form rise is-in" style="--rise-delay: 0.07s;">
             <p class="eyebrow eyebrow--green">Custom service</p>

@@ -26,8 +26,8 @@
       </div>
     </div>
   </section>
-  <section class="section section--mist">
-    <div class="container serv1-inner">
+  <section class="section section--mist serv2">
+    <div class="container serv2-inner">
       <div class="section-head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -77,8 +77,8 @@
       <div class="carousel-dots" data-carousel-dots></div>
     </div>
   </section>
-  <section class="section">
-    <div class="container explained serv1-inner">
+  <section class="section serv3">
+    <div class="container explained serv3-inner">
       <div class="explained__sticky">
         <p class="index-label">
           <span class="index-label__index">02</span>Explained
@@ -105,7 +105,7 @@
       </div>
     </div>
   </section>
-  <section class="split section--surface">
+  <section class="split section--surface serv4">
     <div class="split__image">
       <img src="assest/img/writing-at-breakfast-table.jpg" alt="Writing at a breakfast table" loading="lazy" decoding="async" width="1600" height="1067">
     </div>
@@ -120,10 +120,10 @@
       </div>
     </div>
   </section>
-  <section class="section section--dark pricing" id="pricing" data-service="email-marketing">
+  <section class="section section--dark pricing serv5" id="pricing" data-service="email-marketing">
     <div class="pricing__pattern" aria-hidden="true"></div>
     <div class="pricing__fade" aria-hidden="true"></div>
-    <div class="container serv1-inner">
+    <div class="container serv5-cont">
       <div class="pricing__head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -189,8 +189,8 @@
       <p class="pricing__note" data-service-note></p>
     </div>
   </section>
-  <section class="section section--white">
-    <div class="container serv1-inner">
+  <section class="section section--white serv6">
+    <div class="container serv6-inner">
       <div class="section-head">
         <div class="stack">
           <p class="index-label" data-reveal>
@@ -219,11 +219,11 @@
       </div>
     </div>
   </section>
-  <section class="split">
-    <div class="split__image">
+  <section class="split serv7">
+    <div class="split__image rise is-in">
       <img src="assest/img/envelope-on-black.jpg" alt="An envelope on a black background" loading="lazy" decoding="async" width="2400" height="1600">
     </div>
-    <div class="split__copy split__copy--form">
+    <div class="split__copy split__copy--form rise is-in">
       <p class="eyebrow eyebrow--green">Custom service</p>
       <h2 class="heading-m">Something we do not list?</h2>
       <p class="lead text-muted">Tell us what you need. If it fits what we do, you get <br class="br-wide">one fixed price and a term, like every other service. </p>
