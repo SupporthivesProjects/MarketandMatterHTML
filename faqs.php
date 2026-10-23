@@ -1,6 +1,11 @@
 <?php include 'includes/header.php'; ?>
+<style>
+   h1, p, dd, h2, h3, h4, h5, h6{
+      margin: 0px
+   }
+</style>
 <main>
-  <section class="hero hero--plain">
+  <section class="hero hero--plain faq_s1">
     <div class="container hero__inner">
       <div class="hero__copy hero__copy--center">
         <p class="eyebrow">FAQ</p>
@@ -10,7 +15,7 @@
     </div>
   </section>
 
-  <section class="section faq-page">
+  <section class="section faq-page faq_s2">
     <div class="container">
       <div class="faq-layout">
         <div class="faq-topic" data-reveal>
@@ -40,7 +45,8 @@
           </div>
         </div>
         <div class="faq-contact" data-reveal>
-          <p class="title-l">A question we have not answered?</p>
+          <p class="title-l mobile_none">A question we have not answered?</p>
+          <p class="title-l desktop_none">A question we<br>have not answered?</p>
           <a class="button sweep" href="contact.html">Contact us<span class="button__icon"><svg class="icon icon--arrow" viewBox="0 0 15 12" fill="none" aria-hidden="true"><path d="M0 5.53H13M8 10.53L13 5.53L8 .53" stroke="currentColor" stroke-width="1.5"/></svg></span></a>
         </div>
       </div>

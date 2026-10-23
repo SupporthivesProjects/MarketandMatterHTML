@@ -3,7 +3,7 @@
   <section class="hero hero--how">
     <img class="hero__media" src="assest/img/mountain-landscape.jpg" alt="" width="2000" height="1125" fetchpriority="high">
     <div class="hero__overlay"></div>
-    <div class="container hero__inner">
+    <div class="container hero__inner work_container">
       <div class="hero__copy hero__copy--center">
         <p class="eyebrow">How it works</p>
         <h1 class="display">How a service <br>goes from order <br>to work done </h1>
@@ -23,7 +23,7 @@
     </div>
   </section>
   <section class="section section--mist">
-    <div class="container">
+    <div class="container work_container">
       <div class="section-head section-head--stack">
         <p class="index-label" data-reveal>
           <span class="index-label__index">01</span>How to order
@@ -156,7 +156,7 @@
     </div>
   </section>
   <section class="section">
-    <div class="container">
+    <div class="container work_container">
       <div class="section-head section-head--stack">
         <p class="index-label" data-reveal>
           <span class="index-label__index">02</span>Your first month

@@ -1,0 +1,96 @@
+.desktop_none{
+    display: none;
+}
+.mobile_none{
+    display: block;
+}
+
+.contact_container{
+    padding: 0px;
+}
+.contact_s1{
+    padding-bottom: 104px;
+}
+.contact-details{
+    padding: 0px;
+    margin: 0px;
+}
+.lead.text-muted{
+    color: var(--paper-muted) !important;
+}
+.faq_s1{
+    padding-top: 190px;
+    padding-bottom: 127px;
+}
+.faq_s2{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+
+
+
+
+/* Mobile */
+@media only screen and (max-device-width: 600px) {
+.desktop_none{
+    display: block;
+}
+.mobile_none{
+    display: none;
+}
+.contact_container{
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 32px !important;
+}
+.contact_s1{
+    padding-bottom: 40px;
+}
+.contact-details__item{
+    padding-top: 24px;
+}
+.contact-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact__photo img{
+    object-position: 0px -40px;
+}
+.contact_s3{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact_container .grid-3 .rule-col{
+    padding-top: 24px;
+}
+.faq_s1{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.faq_s2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.faq-layout{
+    gap: 32px;
+}
+.faq-topic{
+    gap: 16px;
+}
+.faq-contact{
+    padding: 24px;
+}
+}
+
+
+
+
+
+@media only screen and (min-device-width: 950px) and (max-device-width: 998px) {}
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1199px) {}
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1348px) {}
