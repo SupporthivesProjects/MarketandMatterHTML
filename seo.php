@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tier-cards" data-carousel="">
+            <!-- <div class="tier-cards" data-carousel="">
                 <article class="tier-card is-in" data-tier="bronze" data-reveal="" style="--reveal-delay: 0s;">
                     <div class="tier-card__top">
                         <h3 class="title-l">Bronze</h3><span class="tag" data-featured-tag="" hidden="">Most popular</span></div>
@@ -225,12 +225,457 @@
                     </ul>
                     <button class="tier-card__button sweep" type="button" data-add-tier="">Add to cart</button>
                 </article>
+            </div> -->
+           
+<!-- <div class="tier-cards"> -->
+
+    <!-- ================= 1 MONTH ================= -->
+    <div class="pricing-panel is-active" data-panel="1">
+        <div class="tier-cards" data-carousel>
+        <article class="tier-card" data-tier="bronze">
+            <div class="tier-card__top">
+                <h3 class="title-l">Bronze</h3>
+                <span class="tag" hidden>Most popular</span>
             </div>
-            <div class="carousel-dots" data-carousel-dots="">
+
+            <p class="tier-card__suits">
+                One site with a handful of searches to own.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€109</div>
+                <p class="tier-card__monthly">€109 a month, 1 month term</p>
+            </div>
+
+            <div class="figures">
+                <div>
+                    <b class="figures__value">5</b>
+                    <span class="figures__label">target keywords</span>
+                </div>
+                <div>
+                    <b class="figures__value">1</b>
+                    <span class="figures__label">blog post a month</span>
+                </div>
+                <div>
+                    <b class="figures__value">3</b>
+                    <span class="figures__label">quality links a month</span>
+                </div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National coverage</span></li>
+                <li>✓ <span>Full SEO audit at onboarding</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep" type="button">
+                Add to cart
+            </button>
+        </article>
+
+
+        <article class="tier-card tier-card--featured" data-tier="silver">
+            <div class="tier-card__top">
+                <h3 class="title-l">Silver</h3>
+                <span class="tag">Most popular</span>
+            </div>
+
+            <p class="tier-card__suits">
+                Several services competing for the same local searches.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€367</div>
+                <p class="tier-card__monthly">€367 a month, 1 month term</p>
+            </div>
+
+            <div class="figures">
+                <div>
+                    <b class="figures__value">15</b>
+                    <span class="figures__label">target keywords</span>
+                </div>
+                <div>
+                    <b class="figures__value">2</b>
+                    <span class="figures__label">blog posts a month</span>
+                </div>
+                <div>
+                    <b class="figures__value">8</b>
+                    <span class="figures__label">quality links a month</span>
+                </div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National coverage</span></li>
+                <li>✓ <span>AI search visibility</span></li>
+                <li>✓ <span>Schema markup and Core Web Vitals fixes</span></li>
+                <li>✓ <span>Full SEO audit every quarter</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep" type="button">
+                Add to cart
+            </button>
+        </article>
+
+
+        <article class="tier-card" data-tier="gold">
+            <div class="tier-card__top">
+                <h3 class="title-l">Gold</h3>
+                <span class="tag" hidden>Most popular</span>
+            </div>
+
+            <p class="tier-card__suits">
+                A chain, or a fiercely fought sector.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€700</div>
+                <p class="tier-card__monthly">€700 a month, 1 month term</p>
+            </div>
+
+            <div class="figures">
+                <div>
+                    <b class="figures__value">30</b>
+                    <span class="figures__label">target keywords</span>
+                </div>
+                <div>
+                    <b class="figures__value">4</b>
+                    <span class="figures__label">blog posts a month</span>
+                </div>
+                <div>
+                    <b class="figures__value">15</b>
+                    <span class="figures__label">quality links a month</span>
+                </div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National and international coverage</span></li>
+                <li>✓ <span>AI search visibility</span></li>
+                <li>✓ <span>Schema markup and Core Web Vitals fixes</span></li>
+                <li>✓ <span>Full SEO audit every month</span></li>
+                <li>✓ <span>Digital PR and news outreach</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep" type="button">
+                Add to cart
+            </button>
+        </article>
+        </div>
+        <div class="carousel-dots" data-carousel-dots="">
                 <button type="button" aria-label="Show item 1" class="is-active"></button>
                 <button type="button" aria-label="Show item 2"></button>
                 <button type="button" aria-label="Show item 3"></button>
             </div>
+    </div>
+
+
+    <!-- ================= 3 MONTH ================= -->
+    <div class="pricing-panel" data-panel="3">
+        <div class="tier-cards" data-carousel>
+        <!-- Duplicate the same 3 cards here -->
+        <!-- Change prices/content according to 3 month pricing -->
+
+        <article class="tier-card" data-tier="bronze">
+            <div class="tier-card__top">
+                <h3 class="title-l">Bronze</h3>
+            </div>
+
+            <p class="tier-card__suits">
+                One site with a handful of searches to own.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€300</div>
+                <p class="tier-card__monthly">€100 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">5</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">1</b><span class="figures__label">blog post a month</span></div>
+                <div><b class="figures__value">3</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National coverage</span></li>
+                <li>✓ <span>Full SEO audit at onboarding</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+
+        <article class="tier-card tier-card--featured" data-tier="silver">
+            <div class="tier-card__top">
+                <h3 class="title-l">Silver</h3>
+                <span class="tag">Most popular</span>
+            </div>
+
+            <p class="tier-card__suits">
+                Several services competing for the same local searches.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€1020</div>
+                <p class="tier-card__monthly">€340 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">15</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">2</b><span class="figures__label">blog posts a month</span></div>
+                <div><b class="figures__value">8</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National coverage</span></li>
+                <li>✓ <span>AI search visibility</span></li>
+                <li>✓ <span>Schema markup</span></li>
+                <li>✓ <span>Full SEO audit every quarter</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+
+        <article class="tier-card" data-tier="gold">
+            <div class="tier-card__top">
+                <h3 class="title-l">Gold</h3>
+            </div>
+
+            <p class="tier-card__suits">
+                A chain, or a fiercely fought sector.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€1950</div>
+                <p class="tier-card__monthly">€650 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">30</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">4</b><span class="figures__label">blog posts a month</span></div>
+                <div><b class="figures__value">15</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National and international coverage</span></li>
+                <li>✓ <span>AI search visibility</span></li>
+                <li>✓ <span>Schema markup</span></li>
+                <li>✓ <span>Digital PR and news outreach</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+        </div>
+        <div class="carousel-dots" data-carousel-dots="">
+                <button type="button" aria-label="Show item 1" class="is-active"></button>
+                <button type="button" aria-label="Show item 2"></button>
+                <button type="button" aria-label="Show item 3"></button>
+            </div>
+    </div>
+
+
+    <!-- ================= 6 MONTH ================= -->
+    <div class="pricing-panel" data-panel="6">
+        <div class="tier-cards" data-carousel>
+        <article class="tier-card" data-tier="bronze">
+            <div class="tier-card__top">
+                <h3 class="title-l">Bronze</h3>
+            </div>
+
+            <p class="tier-card__suits">
+                One site with a handful of searches to own.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€300</div>
+                <p class="tier-card__monthly">€100 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">5</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">1</b><span class="figures__label">blog post a month</span></div>
+                <div><b class="figures__value">3</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National coverage</span></li>
+                <li>✓ <span>Full SEO audit at onboarding</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+
+        <article class="tier-card tier-card--featured" data-tier="silver">
+            <div class="tier-card__top">
+                <h3 class="title-l">Silver</h3>
+                <span class="tag">Most popular</span>
+            </div>
+
+            <p class="tier-card__suits">
+                Several services competing for the same local searches.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€1020</div>
+                <p class="tier-card__monthly">€340 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">15</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">2</b><span class="figures__label">blog posts a month</span></div>
+                <div><b class="figures__value">8</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National coverage</span></li>
+                <li>✓ <span>AI search visibility</span></li>
+                <li>✓ <span>Schema markup</span></li>
+                <li>✓ <span>Full SEO audit every quarter</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+
+        <article class="tier-card" data-tier="gold">
+            <div class="tier-card__top">
+                <h3 class="title-l">Gold</h3>
+            </div>
+
+            <p class="tier-card__suits">
+                A chain, or a fiercely fought sector.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€1950</div>
+                <p class="tier-card__monthly">€650 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">30</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">4</b><span class="figures__label">blog posts a month</span></div>
+                <div><b class="figures__value">15</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National and international coverage</span></li>
+                <li>✓ <span>AI search visibility</span></li>
+                <li>✓ <span>Schema markup</span></li>
+                <li>✓ <span>Digital PR and news outreach</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+        </div>
+        <div class="carousel-dots" data-carousel-dots="">
+                <button type="button" aria-label="Show item 1" class="is-active"></button>
+                <button type="button" aria-label="Show item 2"></button>
+                <button type="button" aria-label="Show item 3"></button>
+            </div>
+    </div>
+
+
+    <!-- ================= 12 MONTH ================= -->
+    <div class="pricing-panel" data-panel="12">
+        <div class="tier-cards" data-carousel>
+        <article class="tier-card" data-tier="bronze">
+            <div class="tier-card__top">
+                <h3 class="title-l">Bronze</h3>
+            </div>
+
+            <p class="tier-card__suits">
+                One site with a handful of searches to own.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€300</div>
+                <p class="tier-card__monthly">€100 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">5</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">1</b><span class="figures__label">blog post a month</span></div>
+                <div><b class="figures__value">3</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National coverage</span></li>
+                <li>✓ <span>Full SEO audit at onboarding</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+
+        <article class="tier-card tier-card--featured" data-tier="silver">
+            <div class="tier-card__top">
+                <h3 class="title-l">Silver</h3>
+                <span class="tag">Most popular</span>
+            </div>
+
+            <p class="tier-card__suits">
+                Several services competing for the same local searches.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€1020</div>
+                <p class="tier-card__monthly">€340 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">15</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">2</b><span class="figures__label">blog posts a month</span></div>
+                <div><b class="figures__value">8</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National coverage</span></li>
+                <li>✓ <span>AI search visibility</span></li>
+                <li>✓ <span>Schema markup</span></li>
+                <li>✓ <span>Full SEO audit every quarter</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+
+        <article class="tier-card" data-tier="gold">
+            <div class="tier-card__top">
+                <h3 class="title-l">Gold</h3>
+            </div>
+
+            <p class="tier-card__suits">
+                A chain, or a fiercely fought sector.
+            </p>
+
+            <div>
+                <div class="tier-card__total">€1950</div>
+                <p class="tier-card__monthly">€650 a month, 3 month term</p>
+            </div>
+
+            <div class="figures">
+                <div><b class="figures__value">30</b><span class="figures__label">target keywords</span></div>
+                <div><b class="figures__value">4</b><span class="figures__label">blog posts a month</span></div>
+                <div><b class="figures__value">15</b><span class="figures__label">quality links a month</span></div>
+            </div>
+
+            <ul class="ticks">
+                <li>✓ <span>National and international coverage</span></li>
+                <li>✓ <span>AI search visibility</span></li>
+                <li>✓ <span>Schema markup</span></li>
+                <li>✓ <span>Digital PR and news outreach</span></li>
+            </ul>
+
+            <button class="tier-card__button sweep">Add to cart</button>
+        </article>
+        </div>
+        <div class="carousel-dots" data-carousel-dots="">
+                <button type="button" aria-label="Show item 1" class="is-active"></button>
+                <button type="button" aria-label="Show item 2"></button>
+                <button type="button" aria-label="Show item 3"></button>
+            </div>
+    </div>
+
+
+
+            <!-- <div class="carousel-dots" data-carousel-dots="">
+                <button type="button" aria-label="Show item 1" class="is-active"></button>
+                <button type="button" aria-label="Show item 2"></button>
+                <button type="button" aria-label="Show item 3"></button>
+            </div> -->
             <p class="pricing__note" data-service-note="">Longer terms cost less a month. Every SEO tier starts with free setup.</p>
         </div>
     </section>
@@ -356,4 +801,57 @@
 
 </main>
 
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+    const termButtons = document.querySelectorAll(
+        ".segmented__option[data-term]"
+    );
+
+    const pricingPanels = document.querySelectorAll(
+        ".pricing-panel[data-panel]"
+    );
+
+
+    termButtons.forEach(function (button) {
+
+        button.addEventListener("click", function () {
+
+            const selectedTerm = this.getAttribute("data-term");
+
+
+            /* Remove active from all buttons */
+            termButtons.forEach(function (btn) {
+                btn.classList.remove("is-active");
+            });
+
+
+            /* Add active to clicked button */
+            this.classList.add("is-active");
+
+
+            /* Hide all pricing panels */
+            pricingPanels.forEach(function (panel) {
+                panel.classList.remove("is-active");
+            });
+
+
+            /* Show selected pricing panel */
+            const activePanel = document.querySelector(
+                '.pricing-panel[data-panel="' + selectedTerm + '"]'
+            );
+
+
+            if (activePanel) {
+                activePanel.classList.add("is-active");
+            }
+
+        });
+
+    });
+
+});
+</script>
 <?php include 'includes/footer.php'; ?>
