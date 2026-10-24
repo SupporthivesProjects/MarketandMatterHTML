@@ -801,5 +801,5 @@
       }
     </style>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?> 
 <script src="assest/js/mm-home.js"></script>
