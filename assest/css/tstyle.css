@@ -1656,19 +1656,19 @@ box-shadow: 0 24px 56px 0 rgba(20, 18, 15, 0.14);
     gap: calc(10 * var(--s))
   }
   .mm-cf .mm-brand .mm-logo .mm-wm {
-    font-size: calc(20.5 * var(--s));
+    font-size: calc(22 * var(--s));
     font-weight: 600
   }
   .mm-cf .mm-brand .mm-logo .mm-dv {
     height: calc(23 * var(--s))
   }
   .mm-cf .mm-brand .mm-logo .mm-ar {
-    font-size: calc(19.5 * var(--s));
+    font-size: calc(19 * var(--s));
     opacity: 1
   }
   .mm-cf .mm-brand p {
     font-size: calc(15 * var(--s));
-    opacity: .75
+    opacity: .60
   }
   .mm-cf .mm-so {
     display: flex;
@@ -1728,12 +1728,12 @@ box-shadow: 0 24px 56px 0 rgba(20, 18, 15, 0.14);
     justify-content: space-between;
     align-items: center;
     margin-top: calc(40 * var(--s));
-    padding-top: calc(24 * var(--s));
+    padding-top: calc(40 * var(--s));
     border-top: 1px solid rgba(243, 238, 228, .2)
   }
   .mm-cf .mm-bot small {
     font-family: "Fragment Mono", monospace;
-    font-size: calc(11 * var(--s));
+    font-size: calc(12 * var(--s));
     letter-spacing: .03em;
     text-transform: uppercase;
     opacity: .6
@@ -1742,7 +1742,7 @@ box-shadow: 0 24px 56px 0 rgba(20, 18, 15, 0.14);
     display: flex;
     gap: calc(24 * var(--s));
     font-size: calc(13 * var(--s));
-    opacity: .8
+    opacity: .6
   }
   .mm-ex {
     pointer-events: none;
@@ -1956,6 +1956,9 @@ box-shadow: 0 24px 56px 0 rgba(20, 18, 15, 0.14);
     }
     .mm-sdesc b {
       font-size: 26px
+    }
+    .mob_df_pad {
+        padding: 32px 24px;
     }
     /* mobile: photo stacks above the copy instead of sitting behind it */
     .mm-wimg {
