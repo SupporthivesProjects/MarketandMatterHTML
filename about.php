@@ -1,15 +1,17 @@
 <?php include 'includes/header.php'; ?>
-<main>
-  <section class="hero hero--split">
-    <div class="hero__copy">
+  
+  
+<main class="aboutus_t">
+  <section class="hero hero--split p-0">
+    <div class="hero__copy diff_padt">
       <div class="hero__copy-inner stack">
         <p class="eyebrow">About</p>
         <h1 class="display">
           <span class="display__muted">Marketing sold</span> as fixed services
         </h1>
-        <p class="lead text-muted">Each service clearly outlines the work involved, ensuring you fully understand what you are purchasing. This transparency helps you make informed decisions and guarantees that you receive exactly what you expect, without any surprises.</p>
+        <p class="lead text-muted">Each service clearly outlines the work involved, ensuring you fully understand what you are purchasing. This transparency helps you make informed decisions and guarantees that you   receive exactly what you expect, without any surprises.</p>
         <div>
-          <a class="button button--light sweep" href="services.html">See the services <span class="button__icon">
+          <a class="button button--light sweep margin_top_t" href="services.html">See the services <span class="button__icon">
               <svg class="icon icon--arrow-up" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                 <path d="M3 11L11 3M11 3H4.5M11 3V9.5" stroke="currentColor" stroke-width="1.6" />
               </svg>
@@ -22,15 +24,15 @@
       <img src="assest/img/emirati-at-work.jpg" alt="A man in a red and white ghutra checks a phone at a desk beside a laptop and papers" width="2400" height="1600" fetchpriority="high">
     </div>
   </section>
-  <section class="section">
-    <div class="container">
-      <div class="section-head section-head--stack">
+  <section class="section diff_padt2">
+    <div class="container p-0 overall_new_pd">
+      <div class="section-head section-head--stack dif_margin_bototmt">
         <p class="index-label" data-reveal>
           <span class="index-label__index">01</span>How we work
         </p>
         <h2 class="heading-l" data-reveal>The rules every order follows</h2>
       </div>
-      <div class="grid-4" data-carousel>
+      <div class="grid-4 diff_margin_ttt" data-carousel>
         <article class="card" data-reveal>
           <span class="card__number">01</span>
           <h3 class="title-l">Prices on the page</h3>
@@ -56,11 +58,11 @@
           <p class="card__note">Replaces accounts the agency keeps</p>
         </article>
       </div>
-      <div class="carousel-dots" data-carousel-dots></div>
+      <div class="carousel-dots dots_topt" data-carousel-dots></div>
     </div>
   </section>
-  <section class="section section--dark">
-    <div class="container">
+  <section class="section section--dark diff_padd3 diferential_t">
+    <div class="container p-0 overall_new_pd">
       <div class="section-head section-head--stack">
         <p class="index-label" data-reveal>
           <span class="index-label__index">02</span>Who we work with
@@ -68,7 +70,7 @@
         <h2 class="heading-l" data-reveal>Owners who would rather order than negotiate</h2>
         <p class="lead text-muted" data-reveal>If you know what your business needs and want a fixed price for it, our services fit.</p>
       </div>
-      <div class="grid-4" data-carousel>
+      <div class="grid-4 diff_margin_ttt" data-carousel>
         <article class="photo-card" data-reveal>
           <div class="photo-card__image">
             <img src="assest/img/flower-shop-owner.jpg" alt="A florist in an apron reads a tablet beside a flower fridge" loading="lazy" decoding="async" width="1400" height="2100">
@@ -101,8 +103,8 @@
       <div class="carousel-dots" data-carousel-dots></div>
     </div>
   </section>
-  <section class="section">
-    <div class="container mission">
+  <section class="section diff_padt2">
+    <div class="container p-0 overall_new_pd mission">
       <div class="stack">
         <p class="index-label" data-reveal>
           <span class="index-label__index">03</span>Our mission
@@ -110,7 +112,7 @@
         <h2 class="heading-l" data-reveal>A marketing studio for <br>owner-run businesses </h2>
       </div>
       <div data-reveal>
-        <p class="mission__lede">Market &amp; Matter exists for the business where the person who signs off the spend also answers the emails. Most marketing treats that person as a lead to be worked. We treat them as the buyer, and we built the whole company around the fact that they decide.</p>
+        <p class="mission__lede diff_p_margin_bottom">Market &amp; Matter exists for the business where the person who signs off the spend also answers the emails. Most marketing treats that person as a lead to be worked. We treat them as the buyer, and we built the whole company around the fact that they decide.</p>
         <div class="prose lead text-muted">
           <p>We think a small business knows more about what it needs than most agencies give it credit for. It knows its customers, its margins and its busy months. What it usually lacks is a straight way to buy the help.</p>
           <p>So we decided what the work is before anyone asks. Each service is a fixed piece of work with a fixed scope, which means an owner can weigh it against everything else competing for the same money.</p>
@@ -119,9 +121,9 @@
       </div>
     </div>
   </section>
-  <section class="section section--dark">
-    <div class="container">
-      <div class="section-head">
+  <section class="section section--dark diff_padd3">
+    <div class="container p-0 overall_new_pd">
+      <div class="section-head diff_gaptttttt">
         <div class="stack">
           <p class="index-label" data-reveal>
             <span class="index-label__index">04</span>What we sell
@@ -129,7 +131,7 @@
           <h2 class="heading-l" data-reveal>Our marketing services</h2>
           <p class="lead text-muted" data-reveal>Prices shown are for Bronze. Silver and Gold sit on each service page.</p>
         </div>
-        <div class="contact-card" data-reveal>
+        <div class="contact-card diff_stylest" data-reveal>
           <div class="contact-card__image">
             <img src="assest/img/founder-at-laptop.jpg" alt="A woman working at a laptop against a teal wall" loading="lazy" decoding="async" width="1520" height="1920">
           </div>
@@ -258,13 +260,13 @@
       </div>
     </div>
   </section>
-  <section class="section--green">
-    <div class="container cta-band">
+  <section class="section--green green_wala_paddingt">
+    <div class="container cta-band dif_padttt overall_new_pd" >
       <div class="stack stack--s">
-        <h2 class="heading-m">See what each service costs.</h2>
+        <h2 class="heading-m">See what each<br class="desktop_nonet"> service costs.</h2>
         <p class="lead">Pick a service to see all three tiers and every term.</p>
       </div>
-      <a class="button button--light sweep" href="services.html">Browse services <span class="button__icon">
+      <a class="button button--light sweep hundred_width_mobt" href="services.html">Browse services <span class="button__icon">
           <svg class="icon icon--arrow-up" viewBox="0 0 14 14" fill="none" aria-hidden="true">
             <path d="M3 11L11 3M11 3H4.5M11 3V9.5" stroke="currentColor" stroke-width="1.6" />
           </svg>
@@ -273,4 +275,5 @@
     </div>
   </section>
 </main>
+
 <?php include 'includes/footer.php'; ?>
