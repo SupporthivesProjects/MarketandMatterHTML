@@ -796,7 +796,7 @@
 }
 .tier-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
   gap: 2.4rem;
 }
 .tier-card {
@@ -1926,8 +1926,12 @@ select.input {
     opacity: 1;
     background: var(--color-green);
   }
+  .section--dark .carousel-dots button{
+    opacity: 1;
+    background: #ffffff;
+  }
   .section--dark .carousel-dots button.is-active {
-    background: var(--color-paper);
+    background: var(--brand-mint, #8CCCAD);
   }
   .section-head {
     flex-direction: column;
